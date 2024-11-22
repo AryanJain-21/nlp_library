@@ -37,6 +37,10 @@ What gets stored:
 from collections import defaultdict, Counter
 import random as rnd
 import matplotlib.pyplot as plt
+import json
+import string
+import os
+from collections import defaultdict, Counter
 
 class Textastic:
 
@@ -49,15 +53,38 @@ class Textastic:
         self.data = defaultdict(dict)
 
     def default_parser(self, filename):
-        """ Parse a standard text file and produce
-        extract data results in the form of a dictionary. """
+        """
+        Default parser for handling text-based JSON files.
+        Extracts mission statements and computes word counts.
+        """
+        try:
+            with open(filename, 'r', encoding='utf-8') as file:
+                content = json.load(file)
+        except FileNotFoundError:
+            print(f"Error: File {filename} not found.")
+            return {}
+        except json.JSONDecodeError:
+            print(f"Error: File {filename} is not a valid JSON file.")
+            return {}
 
-        results = {
-            'wordcount': Counter("To be or not to be".split(" ")),
-            'numwords': rnd.randrange(10,50)
+        # Extract mission statements
+        mission_statements = [entry["mission_statement"] for entry in content.get("companies", [])]
+        if not mission_statements:
+            print(f"Warning: No mission statements found in {filename}.")
+            return {}
+
+        full_text = " ".join(mission_statements)
+
+        # Process text
+        cleaned_text = full_text.translate(str.maketrans('', '', string.punctuation)).lower()
+        words = cleaned_text.split()
+        wordcount = Counter(words)
+
+        return {
+            'wordcount': wordcount,
+            'numwords': sum(wordcount.values()),
+            'num_companies': len(mission_statements),
         }
-
-        return results
 
 
     def load_text(self, filename, label=None, parser=None):
