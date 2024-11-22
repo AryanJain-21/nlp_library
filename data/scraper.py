@@ -17,7 +17,7 @@ response.raise_for_status()
 soup = BeautifulSoup(response.text, 'html.parser')
 
 # Replace string with header of companies to extract
-extract = "1-100"
+extract = "101-200"
 
 header = soup.find('h2', string=extract)
 if not header:
@@ -56,7 +56,7 @@ output_data = {
 }
 
 # Save the data to a JSON file
-output_file = "fortune_500_one.json"
+output_file = "fortune_500_two.json"
 with open(output_file, 'w', encoding='utf-8') as f:
     json.dump(output_data, f, ensure_ascii=False, indent=4)
 
