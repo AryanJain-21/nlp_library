@@ -41,6 +41,7 @@ import json
 import string
 import os
 from collections import defaultdict, Counter
+from nltk.corpus import stopwords
 
 class Textastic:
 
@@ -51,6 +52,7 @@ class Textastic:
         """
 
         self.data = defaultdict(dict)
+        self.stopwords = set(stopwords.words('english'))
 
     def default_parser(self, filename):
         """
@@ -78,7 +80,10 @@ class Textastic:
         # Process text
         cleaned_text = full_text.translate(str.maketrans('', '', string.punctuation)).lower()
         words = cleaned_text.split()
-        wordcount = Counter(words)
+
+        filtered_words = [word for word in words if word not in self.stopwords]
+
+        wordcount = Counter(filtered_words)
 
         return {
             'wordcount': wordcount,
