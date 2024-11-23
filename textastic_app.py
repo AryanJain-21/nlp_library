@@ -14,6 +14,7 @@ def main():
     print(tt.data)
 
     tt.compare_num_words()
+    tt.text_to_word_sankey(k=10)
 
 if __name__ == '__main__':
     main()

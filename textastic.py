@@ -42,6 +42,7 @@ import string
 import os
 from collections import defaultdict, Counter
 from nltk.corpus import stopwords
+from matplotlib.sankey import Sankey
 
 class Textastic:
 
@@ -114,12 +115,49 @@ class Textastic:
         project)."""
 
         num_words = self.data['numwords']
-        for label, nw in num_words.items():
-            plt.bar(num_words.keys(), num_words.values())
-            plt.title("Number of Words per Text")
-            plt.xlabel("Text")
-            plt.ylabel("Number of Words")
-            plt.xticks(rotation=45)
-            plt.tight_layout()
+        
+        plt.bar(num_words.keys(), num_words.values())
+        plt.title("Number of Words per Text")
+        plt.xlabel("Text")
+        plt.ylabel("Number of Words")
+        plt.xticks(rotation=45)
+        plt.tight_layout()
 
+        plt.show()
+    
+    def text_to_word_sankey(self, k=10, user_defined_words=None):
+        """
+        Generate a Sankey diagram linking texts to their k most common words
+        or a user-defined set of words.
+        """
+        wordcounts = self.data['wordcount']
+        if not wordcounts:
+            print("No word count data available for visualization.")
+            return
+
+        flows = []
+
+        for text, wc in wordcounts.items():
+            if user_defined_words:
+                words = {word: wc[word] for word in user_defined_words if word in wc}
+            else:
+                words = dict(wc.most_common(k))
+
+            for word, count in words.items():
+                flows.append((text, word, count))
+
+        texts = list({text for text, _, _ in flows})
+        words = list({word for _, word, _ in flows})
+        labels = texts + words
+        label_map = {label: i for i, label in enumerate(labels)}
+
+        sources = [label_map[text] for text, _, _ in flows]
+        targets = [label_map[word] for _, word, _ in flows]
+        weights = [count for _, _, count in flows]
+
+        sankey = Sankey(unit=None)
+        for source, target, weight in zip(sources, targets, weights):
+            sankey.add(flows=[weight, -weight], labels=[labels[source], labels[target]])
+        sankey.finish()
+        plt.title("Text-to-Word Sankey Diagram")
         plt.show()
