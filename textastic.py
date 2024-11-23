@@ -115,6 +115,11 @@ class Textastic:
 
         num_words = self.data['numwords']
         for label, nw in num_words.items():
-            plt.bar(label, nw)
+            plt.bar(num_words.keys(), num_words.values())
+            plt.title("Number of Words per Text")
+            plt.xlabel("Text")
+            plt.ylabel("Number of Words")
+            plt.xticks(rotation=45)
+            plt.tight_layout()
 
         plt.show()
