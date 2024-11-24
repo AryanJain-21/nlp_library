@@ -125,9 +125,9 @@ class Textastic:
         sentences = [sentence.strip() for sentence in sentences if sentence.strip()]
 
         # Statistics
-        num_words = len(filtered_words)
+        num_words = len(words)
         num_sentences = len(sentences)
-        avg_word_length = sum(len(word) for word in filtered_words) / num_words if num_words else 0
+        avg_word_length = sum(len(word) for word in words) / num_words if num_words else 0
         avg_sentence_length = num_words / num_sentences if num_sentences else 0
 
         return {
