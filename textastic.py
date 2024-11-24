@@ -155,26 +155,22 @@ class Textastic:
 
         plt.show()
     
-    def text_to_word_sankey(self, k=10, user_defined_words=None):
+    def wordcount_sankey(self, word_list=None, k=5):
         """
         Generate a Sankey diagram linking texts to their k most common words
         or a user-defined set of words.
         """
         wordcounts = self.data['wordcount']
-        if not wordcounts:
-            print("No word count data available for visualization.")
-            return
-
         flows = []
 
-        for text, wc in wordcounts.items():
-            if user_defined_words:
-                words = {word: wc[word] for word in user_defined_words if word in wc}
+        for label, wc in wordcounts.items():
+            if word_list:
+                selected_words = {word: wc[word] for word in word_list if word in wc}
             else:
-                words = dict(wc.most_common(k))
+                selected_words = dict(wc.most_common(k))
 
-            for word, count in words.items():
-                flows.append((text, word, count))
+            for word, count in selected_words.items():
+                flows.append((label, word, count))
 
         texts = list({text for text, _, _ in flows})
         words = list({word for _, word, _ in flows})
