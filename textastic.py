@@ -115,6 +115,14 @@ class Textastic:
             self.data[k][label] = v
         
         self.text_files.append(label)
+        
+    def load_stop_words(self, stopfile):
+        """Load stopwords from a file or NLTK's list."""
+        if stopfile.lower() == "nltk":
+            self.stopwords = set(stopwords.words('english'))
+        else:
+            with open(stopfile, 'r', encoding='utf-8') as file:
+                self.stopwords = set(file.read().splitlines())
 
     def compare_num_words(self):
         """ This is a very simplistic visualization that creates
