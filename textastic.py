@@ -38,6 +38,7 @@ from collections import defaultdict, Counter
 import random as rnd
 import matplotlib.pyplot as plt
 import json
+import re
 import string
 import os
 from collections import defaultdict, Counter
@@ -87,10 +88,21 @@ class Textastic:
 
         wordcount = Counter(filtered_words)
 
+        sentences = re.split(r'[.!?]+', content)
+        sentences = [sentence.strip() for sentence in sentences if sentence.strip()]
+
+        # Statistics
+        num_words = len(filtered_words)
+        num_sentences = len(sentences)
+        avg_word_length = sum(len(word) for word in filtered_words) / num_words if num_words else 0
+        avg_sentence_length = num_words / num_sentences if num_sentences else 0
+
         return {
             'wordcount': wordcount,
-            'numwords': sum(wordcount.values()),
-            'num_companies': len(mission_statements),
+            'num_words': num_words,
+            'num_sentences': num_sentences,
+            'avg_word_length': avg_word_length,
+            'avg_sentence_length': avg_sentence_length,
         }
 
 
