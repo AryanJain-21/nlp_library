@@ -44,6 +44,7 @@ import os
 from collections import defaultdict, Counter
 from nltk.corpus import stopwords
 from matplotlib.sankey import Sankey
+from wordcloud import WordCloud
 
 class Textastic:
 
@@ -186,4 +187,25 @@ class Textastic:
             sankey.add(flows=[weight, -weight], labels=[labels[source], labels[target]])
         sankey.finish()
         plt.title("Text-to-Word Sankey Diagram")
+        plt.show()
+    
+    def wordcloud_subplots(self, cols=2):
+        """Generate a subplot of word clouds, one for each text."""
+        wordcounts = self.data['wordcount']
+        num_files = len(wordcounts)
+        rows = (num_files + cols - 1) // cols
+
+        fig, axes = plt.subplots(rows, cols, figsize=(cols * 5, rows * 5))
+        axes = axes.flatten()
+
+        for i, (label, wc) in enumerate(wordcounts.items()):
+            wordcloud = WordCloud(width=400, height=300, background_color="white").generate_from_frequencies(wc)
+            axes[i].imshow(wordcloud, interpolation="bilinear")
+            axes[i].set_title(label)
+            axes[i].axis('off')
+
+        for j in range(i + 1, len(axes)):
+            axes[j].axis('off')
+
+        plt.tight_layout()
         plt.show()
