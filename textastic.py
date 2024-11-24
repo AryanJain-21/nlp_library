@@ -53,7 +53,8 @@ class Textastic:
         """
 
         self.data = defaultdict(dict)
-        self.stopwords = set(stopwords.words('english'))
+        self.stopwords = set()
+        self.text_files = []
 
     def default_parser(self, filename):
         """
@@ -98,6 +99,10 @@ class Textastic:
         Extract and store data to be used later by
         the visualization """
 
+        if not os.path.isfile(filename):
+            print(f"Error: File {filename} not found.")
+            return
+
         if parser is None:
             results = self.default_parser(filename)
         else:
@@ -108,6 +113,8 @@ class Textastic:
 
         for k, v in results.items():
             self.data[k][label] = v
+        
+        self.text_files.append(label)
 
     def compare_num_words(self):
         """ This is a very simplistic visualization that creates
