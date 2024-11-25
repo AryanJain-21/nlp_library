@@ -2,12 +2,15 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
-import openai
+from openai import OpenAI
 import os
 from dotenv import load_dotenv
+from collections import defaultdict
 
 load_dotenv()
-openai.api_key = os.getenv("OPENAI_KEY")
+client = OpenAI(
+    api_key=os.getenv("OPENAI_KEY"),  # This is the default and can be omitted
+)
 
 # Website URL
 url = "https://tomislavhorvat.com/mission-statement-examples/"
@@ -27,18 +30,24 @@ headers = ['1-100', '101-200', '201-300', '301-400', '401-500']
 
 # Function for industry classification
 def industry_classification(company_name, mission_statement):
+    
     prompt = (
         f"Given the company name '{company_name}' and the mission statement:\n"
         f"'{mission_statement}', classify the company into one of the following categories: "
         "Retail, Technology, Healthcare, Energy Sector, Investment/Finance, or Other. "
         "Base it off the company name, mission statement, and some background research, only return the industry."
     )
+
     try:
-        response = openai.Completion.create(
-            engine="text-davinci-003",
-            prompt=prompt,
-            max_tokens=100,
-            temperature=0.7,
+
+        completion = client.chat.completions.create(
+            model = "gpt-4",
+            messages=[
+                {
+                    "role": "user",
+                    "content": prompt
+                }
+            ]
         )
 
         industry = response.choices[0].text.strip()
@@ -47,7 +56,7 @@ def industry_classification(company_name, mission_statement):
 
     except Exception as e:
         print(f"Error predicting industry: {e}")
-        return "Unknown", "No explanation available due to error."
+        return "Unknown"
     
 for extract in headers:
 
@@ -90,7 +99,23 @@ metadata = {
 with open(metadata_file, 'w', encoding='utf-8') as f:
     json.dump(metadata, f, ensure_ascii=False, indent=4)
 
-print(f"Saved to '{metadata_file}'.")
+industry_groups = defaultdict(list)
+for company in companies:
 
+    industry = company["industry"]
+    industry_groups[industry].append(company)
+
+for industry, companies in industry_groups.items():
+    sanitized_industry = industry.replace(" ", "_").replace("/", "_")  # Sanitize file name
+    industry_file = os.path.join("data/", f"{sanitized_industry}.json")
+    with open(industry_file, 'w', encoding='utf-8') as f:
+        json.dump({
+            "industry": industry,
+            "num_companies": len(companies),
+            "companies": companies
+        }, f, ensure_ascii=False, indent=4)
+    print(f"Saved {len(companies)} companies to '{industry_file}'.")
+
+print("All JSON files have been created.")
 
 
