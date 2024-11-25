@@ -54,7 +54,7 @@ output_data = {
 }
 
 # Save the data to a JSON file in the data directory
-output_file = "data/fortune_500_five.json"
+output_file = "data/fortune_500.json"
 with open(output_file, 'w', encoding='utf-8') as f:
     json.dump(output_data, f, ensure_ascii=False, indent=4)
 
