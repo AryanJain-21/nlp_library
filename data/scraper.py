@@ -2,6 +2,8 @@ import requests
 from bs4 import BeautifulSoup
 import json
 from datetime import datetime
+import openai
+import os
 
 # Website URL
 url = "https://tomislavhorvat.com/mission-statement-examples/"
@@ -59,3 +61,27 @@ with open(output_file, 'w', encoding='utf-8') as f:
     json.dump(output_data, f, ensure_ascii=False, indent=4)
 
 print(f"Saved to '{output_file}'.")
+
+def predict_industry_with_explanation(company_name, mission_statement):
+    prompt = (
+        f"Given the company name '{company_name}' and the mission statement:\n"
+        f"'{mission_statement}', provide the industry classification of the company. "
+        "Additionally, include a brief explanation based on available background knowledge about the company or the mission statement."
+    )
+    try:
+        response = openai.Completion.create(
+            engine="text-davinci-003",
+            prompt=prompt,
+            max_tokens=200,
+            temperature=0.7,
+        )
+        result = response.choices[0].text.strip()
+        # Extract the industry and explanation
+        if ":" in result:
+            industry, explanation = result.split(":", 1)
+            return industry.strip(), explanation.strip()
+        return "Unknown", result
+    except Exception as e:
+        print(f"Error predicting industry: {e}")
+        return "Unknown", "No explanation available due to error."
+
