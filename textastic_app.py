@@ -14,9 +14,9 @@ def main():
 
     print(tt.data)
 
-    tt.compare_num_words()
+    #tt.compare_num_words()
     tt.wordcount_sankey(k=5)
-    tt.wordcloud_subplots(cols=2)
+    #tt.wordcloud_subplots(cols=2)
 
 if __name__ == '__main__':
     main()

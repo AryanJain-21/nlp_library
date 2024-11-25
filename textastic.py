@@ -45,6 +45,8 @@ from collections import defaultdict, Counter
 from nltk.corpus import stopwords
 from matplotlib.sankey import Sankey
 from wordcloud import WordCloud
+import pandas as pd
+from sankey import make_sankey, show_sankey
 
 class Textastic:
 
@@ -169,33 +171,32 @@ class Textastic:
         Generate a Sankey diagram linking texts to their k most common words
         or a user-defined set of words.
         """
-        wordcounts = self.data['wordcount']
-        flows = []
 
-        for label, wc in wordcounts.items():
+        wordcounts = self.data['wordcount']
+        if not wordcounts:
+            print("No word count data available.")
+            return
+
+        # Prepare data for Sankey diagram
+        rows = []
+        for text_label, wc in wordcounts.items():
             if word_list:
                 selected_words = {word: wc[word] for word in word_list if word in wc}
             else:
                 selected_words = dict(wc.most_common(k))
 
             for word, count in selected_words.items():
-                flows.append((label, word, count))
+                rows.append({"src": text_label, "targ": word, "vals": count})
 
-        texts = list({text for text, _, _ in flows})
-        words = list({word for _, word, _ in flows})
-        labels = texts + words
-        label_map = {label: i for i, label in enumerate(labels)}
+        # Convert rows to DataFrame
+        df = pd.DataFrame(rows)
 
-        sources = [label_map[text] for text, _, _ in flows]
-        targets = [label_map[word] for _, word, _ in flows]
-        weights = [count for _, _, count in flows]
+        if df.empty:
+            print("No data to visualize in the Sankey diagram.")
+            return
 
-        sankey = Sankey(unit=None)
-        for source, target, weight in zip(sources, targets, weights):
-            sankey.add(flows=[weight, -weight], labels=[labels[source], labels[target]])
-        sankey.finish()
-        plt.title("Text-to-Word Sankey Diagram")
-        plt.show()
+        # Use the Plotly wrapper to generate the Sankey diagram
+        show_sankey(df, src='src', targ='targ', vals='vals', width=1000, height=600)
     
     def wordcloud_subplots(self, cols=2):
         """Generate a subplot of word clouds, one for each text."""
