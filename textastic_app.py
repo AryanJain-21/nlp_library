@@ -16,8 +16,8 @@ def main():
 
     #tt.compare_num_words()
     #tt.wordcount_sankey(word_list= ['customers'], k=5)
-    #tt.wordcloud_subplots(cols=2)
-    tt.heatmap_word_frequencies(["innovation", "customers", "growth", "sustainability", "technology"])
+    tt.wordcloud_subplots(cols=3)
+    tt.heatmap_word_frequencies(["innovation", "customers", "improve", "services", "products", "world", "solutions", "communities"])
 
 
 if __name__ == '__main__':

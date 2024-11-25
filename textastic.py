@@ -41,9 +41,7 @@ import json
 import re
 import string
 import os
-from collections import defaultdict, Counter
 from nltk.corpus import stopwords
-from matplotlib.sankey import Sankey
 from wordcloud import WordCloud
 import pandas as pd
 from sankey import show_sankey
@@ -56,7 +54,6 @@ class Textastic:
 
         datakey
         """
-
         self.data = defaultdict(dict)
         self.stopwords = set()
         self.text_files = []
@@ -97,6 +94,7 @@ class Textastic:
         Default parser for handling text-based JSON files.
         Extracts mission statements and computes word counts.
         """
+        
         try:
             with open(filename, 'r', encoding='utf-8') as file:
                 content = json.load(file)
@@ -205,11 +203,11 @@ class Textastic:
         num_files = len(wordcounts)
         rows = (num_files + cols - 1) // cols
 
-        fig, axes = plt.subplots(rows, cols, figsize=(cols * 5, rows * 5))
+        fig, axes = plt.subplots(rows, cols, figsize=(cols * 3, rows * 3))
         axes = axes.flatten()
 
         for i, (label, wc) in enumerate(wordcounts.items()):
-            wordcloud = WordCloud(width=200, height=150, background_color="white").generate_from_frequencies(wc)
+            wordcloud = WordCloud(width=400, height=300, background_color="white").generate_from_frequencies(wc)
             axes[i].imshow(wordcloud, interpolation="bilinear")
             axes[i].set_title(label)
             axes[i].axis('off')
