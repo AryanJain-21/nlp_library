@@ -9,7 +9,7 @@ from collections import defaultdict
 
 load_dotenv()
 client = OpenAI(
-    api_key=os.getenv("OPENAI_KEY"),  # This is the default and can be omitted
+    api_key=os.getenv("OPENAI_KEY"), 
 )
 
 # Website URL
@@ -57,8 +57,9 @@ def industry_classification(company_name, mission_statement):
 
     except Exception as e:
         print(f"Error predicting industry: {e}")
-        return "Unknown"
+        return "Other"
     
+count = 0
 for extract in headers:
 
     header = soup.find('h2', string=extract)
@@ -77,7 +78,8 @@ for extract in headers:
             mission_statement = next_element.get_text(strip=True)
 
             next_element = next_element.find_next_sibling() if next_element else None
-
+            count += 1
+            print(count, company_name)
             industry = industry_classification(company_name, mission_statement)
             
             # Add to the list
