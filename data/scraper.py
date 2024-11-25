@@ -15,37 +15,35 @@ response.raise_for_status()
 
 
 soup = BeautifulSoup(response.text, 'html.parser')
-
-# Replace string with header of companies to extract
-extract = "401-500"
-
-header = soup.find('h2', string=extract)
-if not header:
-    raise ValueError("Header not found on page.")
-
-
 companies = []
 
-# Start extracting data from the sibling elements of the header
-next_element = header.find_next_sibling()
-while next_element and next_element.name == 'p':
-    try:
+headers = ['1-100', '101-200', '201-300', '301-400', '401-500']
 
-        # Get company name and mission statement
-        company_name = " ".join((next_element.get_text(strip=True)).split(" ")[1:])
+for extract in headers:
 
-        next_element = next_element.find_next_sibling()
+    header = soup.find('h2', string=extract)
+    if not header:
+        raise ValueError("Header not found on page.")
 
-        mission_statement = next_element.get_text(strip=True)
+    # Start extracting data from the sibling elements of the header
+    next_element = header.find_next_sibling()
+    while next_element and next_element.name == 'p':
+        try:
+            # Get company name and mission statement
+            company_name = " ".join((next_element.get_text(strip=True)).split(" ")[1:])
 
-        next_element = next_element.find_next_sibling() if next_element else None
-        
-        # Add to the list
-        if company_name and mission_statement:
-            companies.append({"company_name": company_name, "mission_statement": mission_statement})
+            next_element = next_element.find_next_sibling()
 
-    except AttributeError:
-        break
+            mission_statement = next_element.get_text(strip=True)
+
+            next_element = next_element.find_next_sibling() if next_element else None
+            
+            # Add to the list
+            if company_name and mission_statement:
+                companies.append({"company_name": company_name, "mission_statement": mission_statement})
+
+        except AttributeError:
+            break
 
 # Metadata, the source, extracted date, number of companies represented, then the companies
 output_data = {
