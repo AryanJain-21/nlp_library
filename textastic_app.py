@@ -15,8 +15,10 @@ def main():
     print(tt.data)
 
     #tt.compare_num_words()
-    tt.wordcount_sankey(k=5)
+    #tt.wordcount_sankey(word_list= ['customers'], k=5)
     #tt.wordcloud_subplots(cols=2)
+    tt.heatmap_word_frequencies(["innovation", "customers", "growth", "sustainability", "technology"])
+
 
 if __name__ == '__main__':
     main()

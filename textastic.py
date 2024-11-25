@@ -46,7 +46,8 @@ from nltk.corpus import stopwords
 from matplotlib.sankey import Sankey
 from wordcloud import WordCloud
 import pandas as pd
-from sankey import make_sankey, show_sankey
+from sankey import show_sankey
+import seaborn as sns
 
 class Textastic:
 
@@ -208,7 +209,7 @@ class Textastic:
         axes = axes.flatten()
 
         for i, (label, wc) in enumerate(wordcounts.items()):
-            wordcloud = WordCloud(width=400, height=300, background_color="white").generate_from_frequencies(wc)
+            wordcloud = WordCloud(width=200, height=150, background_color="white").generate_from_frequencies(wc)
             axes[i].imshow(wordcloud, interpolation="bilinear")
             axes[i].set_title(label)
             axes[i].axis('off')
@@ -217,4 +218,23 @@ class Textastic:
             axes[j].axis('off')
 
         plt.tight_layout()
+        plt.show()
+    
+    def heatmap_word_frequencies(self, words):
+        """
+        Generate a heatmap of word frequencies across industries.
+        """
+        labels = list(self.data['wordcount'].keys())
+        wordcounts = self.data['wordcount']
+
+        # Prepare data
+        heatmap_data = {word: [wordcounts[label].get(word, 0) for label in labels] for word in words}
+        heatmap_df = pd.DataFrame(heatmap_data, index=labels)
+
+        # Plot heatmap
+        plt.figure(figsize=(10, 6))
+        sns.heatmap(heatmap_df, annot=True, cmap="YlGnBu", fmt="d", linewidths=0.5)
+        plt.title("Word Frequencies Across Industries")
+        plt.xlabel("Words")
+        plt.ylabel("Industries")
         plt.show()
