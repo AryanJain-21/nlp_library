@@ -1,0 +1,226 @@
+{
+    "industry": "Healthcare",
+    "num_companies": 44,
+    "companies": [
+        {
+            "company_name": "UnitedHealth Group",
+            "mission_statement": "To help people live healthier lives and to help make the health system work better for everyone. We seek to enhance the performance of the health system and improve the overall health and well-being of the people we serve and their communities.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "McKesson",
+            "mission_statement": "To provide comprehensive pharmacy solutions that improve productivity, profitability and result in superior patient care and satisfaction.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "CVS Health",
+            "mission_statement": "To improve the lives of those we serve by making innovative and high-quality health and pharmacy services safe, affordable and easy to access.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "AmerisourceBergen",
+            "mission_statement": "We are united in our responsibility to create healthier futures.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Cardinal Health",
+            "mission_statement": "For those tasked with navigating the complexities of healthcare, Cardinal Health brings scaled solutions that help our customers thrive in a changing world.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Anthem",
+            "mission_statement": "To improve the health of the people we serve.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Johnson & Johnson",
+            "mission_statement": "Make diversity & inclusion how we work every day.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Centene",
+            "mission_statement": "To helping people live healthier lives.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Humana",
+            "mission_statement": "To helping employers manage their healthcare costs, guiding consumers to make informed health and benefits decisions, and giving back to the communities we serve.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Pfizer",
+            "mission_statement": "To become the world’s most valued company to all of these people.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Cigna",
+            "mission_statement": "To improve the health, well-being, and peace of mind of those we serve by making health care simple, affordable, and predictable.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "HCA Healthcare",
+            "mission_statement": "To provide compassionate care and exceptional service to every patient, every day.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Merck",
+            "mission_statement": "To discover, develop and provide innovative products and services that save and improve lives around the world.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "AbbVie",
+            "mission_statement": "Create an innovation-driven, patient-focused specialty biopharmaceutical company capable of achieving sustainable top-tier performance through outstanding execution and a consistent stream of innovative new medicines.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Abbott Laboratories",
+            "mission_statement": "To improve lives by providing cost-effective health care products and services.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Eli Lilly",
+            "mission_statement": "We pursue pharmaceutical innovation, provide high quality products and strive to deliver superior business results.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Amgen",
+            "mission_statement": "To serve patients by transforming the promise of science and biotechnology into therapies that have the power to restore health or save lives. In everything we do, we aim to fulfill our mission to serve patients. And every step of the way, we are guided by the values that define us.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Bristol-Myers Squibb",
+            "mission_statement": "To discover, develop and deliver innovative medicines that help patients prevail over serious diseases.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Gilead Sciences",
+            "mission_statement": "To advance the care of patients suffering from life-threatening diseases worldwide.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Aflac",
+            "mission_statement": "To combine aggressive strategic marketing with quality products and services at competitive prices to provide the best insurance value for consumers.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "WellCare Health Plans",
+            "mission_statement": "To serve our members and communities in which they live.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Danaher",
+            "mission_statement": "We base our strategic plan on the Voice-of-the-Customer. Robust, repeatable processes yield superior Quality, Delivery, and Cost that satisfy our customers beyond their expectations.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Molina Healthcare",
+            "mission_statement": "To provide quality health services to financially vulnerable families and individuals covered by government programs.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Kimberly-Clark",
+            "mission_statement": "Kimberly-Clark has adhered to a set of simple yet insightful values established by our founders – quality, service and fair dealing. These are the standards of performance by which our leadership and employees are measured. These values have helped establish Kimberly-Clark as a leading-edge global company that produces superior health and hygiene products used by families and professionals from all walks of life and cultures around the world.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Tenet Healthcare",
+            "mission_statement": "To provide quality, compassionate care in the communities we serve. Our Vision is to consistently deliver the right care, in the right place, at the right time and to be a premier organization to work, where patient care and saving lives remain our focus.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "DaVita",
+            "mission_statement": "To Be the Provider, Partner and Employer of Choice We aim to Build the Greatest Health Care Community the World Has Ever Seen through our commitment to upholding our Mission and Core Values for our patients, partners and teammates.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Becton Dickinson",
+            "mission_statement": "We are committed to upholding the highest standards of excellence and integrity in everything we do—on behalf of our customers, our shareholders, our communities and ourselves. We are proud to work for a healthcare company whose products and services make a difference in people’s lives.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Celgene",
+            "mission_statement": "Everything we do at Celgene is focused on a singular mission of improving the lives of patients worldwide. In order to fulfill that promise, we understand that we must instill trust in our colleagues, our patients, our partners and the public at large through our words and our actions.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Community Health Systems",
+            "mission_statement": "Community Healthcare System is committed to provide the highest quality care in the most cost-efficient manner, respecting the dignity of the individual, providing for the well being of the community and serving the needs of all people, including the poor and disadvantaged.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Stryker",
+            "mission_statement": "Together with our customers, we are driven to make healthcare better.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Biogen",
+            "mission_statement": "To deliver innovative therapies for patients and invest in the areas of highest return to deliver long-term value to our stockholders.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Henry Schein",
+            "mission_statement": "To provide innovative, integrated health care products and services; and to be trusted advisors and consultants to our customers – enabling them to deliver the best quality patient care and enhance their practice management efficiency and profitability.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Laboratory Corp. of America",
+            "mission_statement": "To improve health and improve lives by delivering world-class diagnostics, accelerating the availability of innovative medicines to patients, and using technology to change the way care is delivered.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Baxter International",
+            "mission_statement": "To save and sustain lives. We deliver essential products to expand access to care, provide cost-effective healthcare solutions, deliver quality products, and advance healthcare innovations around the world.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Universal Health Services",
+            "mission_statement": "To provide superior quality healthcare services that: PATIENTS recommend to family and friends, PHYSICIANS prefer for their patients, PURCHASERS select for their clients, EMPLOYEES are proud of, and INVESTORS seek for long-term returns.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "IQVIA Holdings",
+            "mission_statement": "To integrate advances in data science and technology with human science expertise to help people in healthcare make better decisions and advance human health.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Owens & Minor",
+            "mission_statement": "To create consistent value for our customers and supply chain partners that will maximize shareholder value and long-term earnings growth: we will do this by managing our business with integrity and the highest ethical standards, while acting in a socially responsible manner with particular emphasis on the well-being of our teammates and the communities we serve.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Boston Scientific",
+            "mission_statement": "To transforming lives through innovative medical solutions that improve the health of patients around the world.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Mosaic",
+            "mission_statement": "Embracing God’s call, Mosaic relentlessly pursues opportunities that empower people. We see people as unique, beloved and important. We listen to what matters to you and help you lead a meaningful, healthy life on your terms.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Zimmer Biomet Holdings",
+            "mission_statement": "Relentless customer focus, innovative solutions, disciplined execution and our dedicated people enable us to deliver products and procedures to treat a broad range of musculoskeletal health conditions.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Quest Diagnostics",
+            "mission_statement": "Quest Diagnostics empowers people to take action to improve health outcomes.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Magellan Health",
+            "mission_statement": "Leading humanity to healthy, vibrant lives.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Regeneron Pharmaceuticals",
+            "mission_statement": "To discover and develop new medicines, which allows us to deliver greater value to our patients, employees and communities.",
+            "industry": "Healthcare"
+        },
+        {
+            "company_name": "Zoetis",
+            "mission_statement": "We build on a six-decade history and singular focus on animal health to bring customers quality products, services and a commitment to their businesses.",
+            "industry": "Healthcare"
+        }
+    ]
+}

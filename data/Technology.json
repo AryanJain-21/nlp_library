@@ -1,0 +1,511 @@
+{
+    "industry": "Technology",
+    "num_companies": 101,
+    "companies": [
+        {
+            "company_name": "Apple",
+            "mission_statement": "To bringing the best user experience to its customers through its innovative hardware, software, and services.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "AT&T",
+            "mission_statement": "To exploit technical innovations for the benefit of AT&T and its customers by implementing next-generation technologies and network advancements in AT&T’s services and operations.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Ford Motor",
+            "mission_statement": "To make people’s lives better by making mobility accessible and affordable.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "General Motors",
+            "mission_statement": "To earn customers for life by building brands that inspire passion and loyalty through not only breakthrough technologies but also by serving and improving the communities in which we live and work around the world.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Alphabet",
+            "mission_statement": "To make the world around you universally accessible and useful.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Verizon Communications",
+            "mission_statement": "We deliver the promise of the digital world to our customers. We make their innovative lifestyles possible.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "General Electric",
+            "mission_statement": "To usher in the next industrial era and to “build, move, power, and cure the world.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Microsoft",
+            "mission_statement": "To empower every person and every organization on the planet to achieve more.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Boeing",
+            "mission_statement": "People working together as a global enterprise for aerospace industry leadership.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Comcast",
+            "mission_statement": "To create incredible technology and entertainment that connects millions of people to the moments and experiences that matter most.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Dell Technologies",
+            "mission_statement": "To be the most successful computer company in the world at delivering the best customer experience in markets we serve.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "IBM",
+            "mission_statement": "To lead in the creation, development, and manufacture of the industry’s most advanced information technologies, including computer systems, software, networking systems, storage devices, and microelectronics.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Intel",
+            "mission_statement": "Delight our customers, employees, and shareholders by relentlessly delivering the platform and technology advancements that become essential to the way we work and live.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "United Technologies",
+            "mission_statement": "We’re a company driven by ideas, innovation and excellence. As a worldwide leader in the building and aerospace industries, we constantly seek talented individuals to create innovative products and solutions for our customers.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "HP",
+            "mission_statement": "We earn customer respect and loyalty by consistently providing the highest quality and value.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Facebook",
+            "mission_statement": "To give people the power to build community and bring the world closer together.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Lockheed Martin",
+            "mission_statement": "We solve complex challenges, advance scientific discovery and deliver innovative solutions to help our customers keep people safe.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Cisco Systems",
+            "mission_statement": "To shape the future of the Internet by creating unprecedented value and opportunity for our customers, employees, investors, and ecosystem partners.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Charter Communications",
+            "mission_statement": "To provide value to its customers by offering high quality communication services, continually improving customer care, and unwavering commitment of its employees.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Honeywell International",
+            "mission_statement": "To create value for shareholders through control technology that saves energy, protects the environment, improves productivity, increases comfort and safety, and promotes peace.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Oracle",
+            "mission_statement": "We foster an inclusive environment that leverages the diverse backgrounds and perspectives of all our employees, suppliers, customers, and partners to drive a sustainable global competitive advantage.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Tech Data",
+            "mission_statement": "To provide computer product resellers and retailers with fast, convenient distribution of high quality products backed by comprehensive value-added services and a commitment to superior customer support.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "General Dynamics",
+            "mission_statement": "General Dynamics focuses on creating shareholder value while delivering superior products and services to military, other government and commercial customers.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "3M",
+            "mission_statement": "To actively contributing to sustainable development through environmental protection, social responsibility, and economic progress.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Hewlett Packard Enterprise",
+            "mission_statement": "Hewlett Packard Enterprise helps customers make their mark on the world with cutting-edge technology solutions. We enable our customers to transform industries, markets, and lives by optimizing their IT to be uniquely suited to their needs.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Micron Technology",
+            "mission_statement": "Be a global leader in memory and storage solutions.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Northrop Grumman",
+            "mission_statement": "To be at the forefront of technology and innovation, delivering superior capability in tandem with maximized cost efficiencies.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Arrow Electronics",
+            "mission_statement": "To foster and grow a diverse and inclusive environment that encourages an open exchange of ideas, where each individual is valued, respected and enabled to reach his or her potential.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Raytheon",
+            "mission_statement": "To be the most admired defense and aerospace systems company through our world-class people, innovation and technology.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "DXC Technology",
+            "mission_statement": "DXC Technology helps customers thrive on change.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Thermo Fisher Scientific",
+            "mission_statement": "To enable our customers to make the world healthier, cleaner and safer.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "CenturyLink",
+            "mission_statement": "To enable millions of customers to transform their businesses and their lives through innovative technology solutions.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Qualcomm",
+            "mission_statement": "Each day, we work to bring that vision to life as we lay the foundation for a new world of wireless communication.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Jabil",
+            "mission_statement": "Our goal is to achieve customer satisfaction through excellence in design, supply chain management, manufacturing and repair solutions.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Tesla",
+            "mission_statement": "To accelerate the world’s transition to sustainable energy.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Whirlpool",
+            "mission_statement": "Earn trust and create demand for our brands in a digital world.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Broadcom",
+            "mission_statement": "Broadcom’s extensive product portfolio serves multiple applications within four primary end markets: wired infrastructure, wireless communications, enterprise storage and industrial & others.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Western Digital",
+            "mission_statement": "Western Digital is committed to sound corporate sustainability in all aspects of our business.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Visa",
+            "mission_statement": "To connect the world through the most innovative, reliable and secure payment network – enabling individuals, businesses and economies to thrive.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Synnex",
+            "mission_statement": "Synnex helps customers, business partners and employees achieve success through shared goals, strategies, resources and technology solutions. With wise investments, innovation and solutions-based products, we increase shareholder and corporate value to all stakeholders.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Avnet",
+            "mission_statement": "Avnet will deliver the highest value to our customers, suppliers, employees and shareholders as the premier technology marketing, distribution and services company, globally.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Emerson Electric",
+            "mission_statement": "Emerson is where technology and engineering come together to create solutions for the benefit of our customers, driven without compromise for a world in action.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Applied Materials",
+            "mission_statement": "To be the leading supplier of semiconductor fabrication solutions worldwide-through innovation and enhancement of customer productivity with systems and service solutions.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "CDW",
+            "mission_statement": "To help our customers achieve their goals by providing them with the technology advice and products they need, when they need them.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Cognizant Technology Solutions",
+            "mission_statement": "Cognizant’s single-minded mission is to dedicate our business process and technology innovation know-how, deep industry expertise and worldwide resources to working together with clients to make their businesses stronger.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Netflix",
+            "mission_statement": "We promise our customers stellar service, our suppliers a valuable partner, our investors the prospects of sustained profitable growth, and our employees the allure of huge impact.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Texas Instruments",
+            "mission_statement": "Texas Instruments develops analog, digital signal processing, RF and DLP® semiconductor technologies that help customers deliver consumer and industrial electronics products with greater performance, increased power efficiency, higher precision, more mobility and better quality.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "PayPal Holdings",
+            "mission_statement": "We believe that now is the time to reimagine money, to democratize financial services so that managing and moving money is a right for all citizens, not just the affluent.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Mastercard",
+            "mission_statement": "MasterCard provides governments with solutions that help them reduce costs, gain efficiencies, curtail fraud and corruption, and advance social progress. MasterCard provides consumers with easy and seamless buying experiences that connect them to the things in life that matter most.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Booking Holdings",
+            "mission_statement": "To make it easier for everyone to experience the world. Booking Holdings is the world leader in online travel & related services.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Parker-Hannifin",
+            "mission_statement": "At Parker, we believe in partnerships with our clients so that we can provide solutions that help to achieve higher productivity and revenue by engineering the best systems for the customer.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Arconic",
+            "mission_statement": "To invent, develop and deliver products and solutions for high performance customers and industries through precision engineering and advanced manufacturing.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "DISH Network",
+            "mission_statement": "To provide quality products through a world class sales organization to every home in America.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "ADP",
+            "mission_statement": "To provide insightful solutions that drive value and success for our clients by allowing them to focus on their business.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "salesforce.com",
+            "mission_statement": "To empowers companies to connect with their customers in a whole new way.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Viacom",
+            "mission_statement": "To be the world’s leading, branded entertainment company across television, motion pictures and digital media platforms.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Tenneco",
+            "mission_statement": "To delight our customers as the number-one technology-driven, global manufacturer and marketer of value-differentiated ride control, emission control and elastomer products and systems.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Nvidia",
+            "mission_statement": "To provide the latest NVIDIA news on products, technologies, and events. To highlight and engage with our fans.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Ball",
+            "mission_statement": "Ball is your “Can Do.” “Let’s Do.” And “Will Do.” … Today, we apply these same unwavering principles to the recyclable metal packaging we make to position your products on store shelves, as well as to the aerospace technologies we develop to make your mission happen.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Corning",
+            "mission_statement": "Corning Incorporated, the world leader in specialty glass and ceramics, has worked closely with customers to understand their problems, explore possible solutions, and then bring those solutions to life through our world-class scientific and manufacturing capabilities.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Expedia Group",
+            "mission_statement": "To bring the world within reach.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Lam Research",
+            "mission_statement": "Dedicated to the success of our customers by being the world-class provider of innovative technology and productivity solutions to the semiconductor industry.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "L3 Technologies",
+            "mission_statement": "To provide customers with state-of-the-art communication and telemetry solutions for airborne, intel and space applications. L3Harris uses this website as a channel of distribution of material company information.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Discovery",
+            "mission_statement": "To satisfy curiosity and make a difference in people’s lives by providing the highest-quality content, services, and products that entertain, engage, and enlighten.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Leidos Holdings",
+            "mission_statement": "Leidos makes the world safer, healthier, and more efficient through information technology, engineering, and science.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Xerox",
+            "mission_statement": "Our strategic intent is to help people find better ways to do great work — by constantly leading in document technologies, products and services that improve our customers’ work processes and business results.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Autoliv",
+            "mission_statement": "To be the leading supplier of safety systems for the future car, well integrated with autonomous driving.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Altice USA",
+            "mission_statement": "To commit to its customers, its employees, and its local communities.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "First Data",
+            "mission_statement": "At First Data, we’re a client-focused global company, providing the best technology solutions that help millions of merchants and financial institutions grow their business. As we help our clients grow, we also help communities and economies grow by enabling easier, faster and more secure commerce.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Adobe",
+            "mission_statement": "To move the Web forward while also giving Web designers and developers the best tools and services in the world.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Rockwell Collins",
+            "mission_statement": "Together, we chart new journeys and reunite families. We protect nations and save lives. And we explore the unknown. We believe in the power of intelligence and partnership to guide our customers into the future.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Frontier Communications",
+            "mission_statement": "Committed to keeping people connected to what matters most to them,",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Fidelity National Information Services",
+            "mission_statement": "We lift economies and communities by advancing the way the world pays, banks and invests.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Anixter International",
+            "mission_statement": "Our customers know they can count on Anixter to deliver consistent, superior service and support around the world. When we say we are global, we mean it.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Amphenol",
+            "mission_statement": "Develop & empower our people to drive our vision, mission & values. Health, safety & environmental best practice and social reponsibility. Superior sustainable profitable growth.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Dana",
+            "mission_statement": "Our talented people power a customer-centric organization that is continuously improving the performance and efficiency of vehicles and machines around the globe. We will consistently deliver superior products and services to our customers and will generate exceptional value for our shareholders.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Liberty Media",
+            "mission_statement": "We invest in the infrastructure and platforms that empower our customers to make the most of the digital revolution.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Alliance Data Systems",
+            "mission_statement": "Alliance Data partners with its clients to develop unique insight into consumer behavior. We use that insight to create and manage customized solutions that change consumer behavior and enable our clients to build stronger, mutually-beneficial relationships with their customers.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Oshkosh",
+            "mission_statement": "Oshkosh Corporation partners with customers to deliver superior solutions that safely and efficiently move people and materials at work, around the globe and around the clock.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Activision Blizzard",
+            "mission_statement": "To inspire play, competition and community connects hundreds of millions of people, and creating a great place to work is the key to serving them well.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "American Tower",
+            "mission_statement": "Lead wireless connectivity around the globe. Innovate for a mobile future. Drive efficiency throughout the industry.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Motorola Solutions",
+            "mission_statement": "At Motorola Solutions, we not only build that lifeline – with mission-critical services, software, video and analytics, backed by secure, resilient land mobile radio communications – we advance it every day through our commitment to innovation.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "American Axle & Manufacturing",
+            "mission_statement": "To deliver efficient, powerful and innovative solutions for our customers while leading the industry in quality, operational excellence and technology to maximize shareholder value.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Fortive",
+            "mission_statement": "Essential technology for the people who accelerate progress.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Graybar Electric",
+            "mission_statement": "To serve as the vital link in the supply chain, adding value for customers and suppliers with innovative solutions and services.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Avery Dennison",
+            "mission_statement": "Through this page, you’ll learn how our curiosity drives us towards making the products you use more engaging, brands you love more compelling and inventories you count on more productive.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Sanmina",
+            "mission_statement": "We are flexible, responsive and strive to exceed customer expectations. Sanmina values building mutually beneficial relationships with our suppliers and customers. We are committed to providing unparalleled support and real competitive advantage for our customers.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Insight Enterprises",
+            "mission_statement": "With broadened expertise and global reach, Insight gives businesses and public sector organizations a more comprehensive approach to meeting business objectives with information technology solutions.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Rockwell Automation",
+            "mission_statement": "To improve the quality of life by making the world more productive and sustainable.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Chemours",
+            "mission_statement": "We aspire to be nothing less than the best in the world at harnessing the power of chemistry to improve the lives of people everywhere.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Advanced Micro Devices",
+            "mission_statement": "Because our customers’ needs are ever-changing, AMD understands the value of looking towards—and keeping pace with—the future.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "NCR",
+            "mission_statement": "We are the new NCR: Leading how the world connects, interacts and transacts with business.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "HeartMedia",
+            "mission_statement": "We believe there’s a radio station playing the perfect music to make any moment in life better.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Analog Devices",
+            "mission_statement": "To be the world’s best signal processing company.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "L3Harris Technologies",
+            "mission_statement": "To provide customers with state-of-the-art communication and telemetry solutions for airborne, intel and space applications.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Booz Allen Hamilton",
+            "mission_statement": "To empower people to change the world, and our values are ferocious integrity, unflinching courage, passionate service, collective ingenuity, and a champion’s heart.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Intuit",
+            "mission_statement": "Our mission is powering prosperity around the world. We build intuitive web, mobile, and cloud solutions that generate more money, more time, and more confidence for 50 million people.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "NetApp",
+            "mission_statement": "To support companies throughout the digital transformation process, delivering hybrid cloud data services that radically improve organizational efficiency and create new business opportunities.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Tapestry",
+            "mission_statement": "Our information management solutions help customers see the big picture and meet mission-critical objectives. From end-to-end logistics software, enterprise asset management and mission planning services, Tapestry helps customers solve complex problems and sharpen operational efficiency.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "ON Semiconductor",
+            "mission_statement": "ON Semiconductor delivers high quality, energy efficient solutions to solve its customer’s electronics design challenges with a world-class supply chain and ethical culture committed to global corporate social responsibility.",
+            "industry": "Technology"
+        },
+        {
+            "company_name": "Fiserv",
+            "mission_statement": "To move money and information in a way that moves the world.",
+            "industry": "Technology"
+        }
+    ]
+}

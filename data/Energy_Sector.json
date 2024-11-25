@@ -1,0 +1,371 @@
+{
+    "industry": "Energy_Sector",
+    "num_companies": 73,
+    "companies": [
+        {
+            "company_name": "Exxon Mobil",
+            "mission_statement": "To being the world’s premier petroleum and petrochemical company.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Chevron",
+            "mission_statement": "Believe in the power of human ingenuity to lead us to a brighter future.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Phillips 66",
+            "mission_statement": "To provide energy and improve lives, and we back that up with core company values of safety, honor and commitment.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Valero Energy",
+            "mission_statement": "As a leading refiner and marketer, we are committed to following these guiding principles to achieve excellence in our business, our industry, and our relationships with our employees and communities.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Marathon Petroleum",
+            "mission_statement": "We will provide innovative commercial expertise and strategic business solutions that support our business partners and maximize shareholder value.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "DuPont de Nemours",
+            "mission_statement": "We help provide clean water to communities where it is scarce, increase the energy efficiency of products, and reduce waste by maximizing resources.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Caterpillar",
+            "mission_statement": "To enable economic growth through infrastructure and energy development, and to provide solutions that support communities and protect the planet.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Energy Transfer",
+            "mission_statement": "To responsibly and safely delivering America’s energy.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "World Fuel Services",
+            "mission_statement": "Create value for our business partners by delivering innovative solutions and logistics through a global team of local professionals.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "ConocoPhillips",
+            "mission_statement": "To develop innovative ways to treat and reuse by-product water from oil and gas production and refining operations.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Enterprise Products Partners",
+            "mission_statement": "At Enterprise Products, we have implemented a comprehensive corporate governance program that is focused on stewardship and accountability.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Exelon",
+            "mission_statement": "Exelon’s mission is to be the leading diversified energy company – by providing reliable, clean, affordable and innovative energy products.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Plains GP Holdings",
+            "mission_statement": "To provide competitive and efficient midstream transportation, terminalling, storage, processing, fractionation, and supply and logistics services to producers, refiners and other customers.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "CHS",
+            "mission_statement": "The vision and mission of CHS is to be an integrated energy and grain-based foods system innovatively linking producers to consumers while growing company profitability and stakeholder value.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "PBF Energy",
+            "mission_statement": "To operate our facilities in a safe, reliable and environmentally responsible manner, provide employees with a safe and rewarding workplace, become a positive influence in the communities where we do business, and provide superior returns to our investors.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Nucor",
+            "mission_statement": "Take Care of Our Customers.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Duke Energy",
+            "mission_statement": "We make people’s lives better by providing gas and electric services in a sustainable way — affordable, reliable and clean.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Halliburton",
+            "mission_statement": "To achieve superior growth and returns for our shareholders by delivering technology and services that improve efficiency, increase recovery, and maximize production for our customers.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Cummins",
+            "mission_statement": "Motivating people to act like owners working together. Exceeding customer expectations by always being first to market with the best products. Partnering with our customers to make sure that they succeed. Demanding that everything we do leads to a cleaner, healthier, safer environment.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Fluor",
+            "mission_statement": "Fluor’s mission is built on successfully delivering projects in a safe, efficient, and economical manner",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Occidental Petroleum",
+            "mission_statement": "To develop energy resources safely, profitably and responsibly to maximize value.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Freeport-McMoRan",
+            "mission_statement": "With our significant proven and probable reserves of copper, gold and molybdenum, we are pursuing a dynamic portfolio of expansion and growth projects, which we believe positions us well in the current economic environment of strong commodity prices and demand.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "HollyFrontier",
+            "mission_statement": "To be the premier U.S. petroleum refining, pipeline and terminal company as measured by superior financial performance and sustainable, profitable growth. Growing both organically and through strategic acquisitions.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "NGL Energy Partners",
+            "mission_statement": "NGL Energy Partners LP is a diversified midstream MLP that provides multiple services to producers and end-users, including transportation, storage, blending and marketing of crude oil, NGLs, refined products / renewables, and water solutions.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "EOG Resources",
+            "mission_statement": "To deliver the highest stockholder appreciation measured by stockholder return and to be the most profitable independent exploration and production company in terms of return on capital employed.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "PG&E",
+            "mission_statement": "PG&E pledges to think creatively and work cooperatively to increase our use of clean and renewable energy, reduce the impacts of our business, protect sensitive habitats and species, and work locally to help our customers use energy more efficiently.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "NextEra Energy",
+            "mission_statement": "To being the best electric utility in the world, by delivering superior value to our customers, by operating with excellence, and by supporting a constructive regulatory environment.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "American Electric Power",
+            "mission_statement": "Together, with our customers, we are redefining the future of energy and developing innovative solutions that power communities and improve lives.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "DTE Energy",
+            "mission_statement": "Our mission is to be a premier, full-service energy and energy technology company, providing solutions to meet the needs of 21st century customers. We will operate as a fast-paced, progressive, high-performance, value-based organization.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Kinder Morgan",
+            "mission_statement": "To protect its employees, the public, and the environment and to achieve zero losses to the Company’s overall financial performance due to incidents, injuries, environmental releases and property damage.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Anadarko Petroleum",
+            "mission_statement": "To deliver a competitive and sustainable rate of return to shareholders by exploring for, acquiring for and developing oil and natural gas resources vital to the world’s health and welfare.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Dominion Energy",
+            "mission_statement": "To serve our customers safely and reliably; strengthen our communities; reward our shareholders; minimize environmental impacts, and live our values.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Edison International",
+            "mission_statement": "To lead the transformation of the electric power industry toward a clean energy future. Through our subsidiaries, we generate and distribute electric power, as well as provide energy services and technologies, including renewable energy.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Oneok",
+            "mission_statement": "To build a diversified energy company that provides consistent growth and stable earnings.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Consolidated Edison",
+            "mission_statement": "To provide energy services to our customers safely, reliably, efficiently, and in an environmentally sound manner; to provide a workplace that allows employees to realize their full potential; to provide a fair return to our investors; and to improve the quality of life in the communities we serve.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "FirstEnergy",
+            "mission_statement": "We are a forward-thinking electric utility powered by a diverse team of employees committed to making customers’ lives brighter, the environment better and our communities stronger.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Steel Dynamics",
+            "mission_statement": "To meet or exceed customer service expectations with regard to quality, service and price; to be a world-class supplier by continually improving our processes, equipment and systems; to provide a safe working environment for all employees; and to continue to enhance the skills of our employees through ongoing training and education.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Sempra Energy",
+            "mission_statement": "To build North America’s premier energy infrastructure company.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Xcel Energy",
+            "mission_statement": "We provide our customers the safe, clean, reliable energy services they want and value at a competitive price.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Quanta Services",
+            "mission_statement": "To provide and maintain a safe work environment for our family of employees.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Entergy",
+            "mission_statement": "“We power life” is Entergy’s promise to create a better future for us all. We exist to operate a world-class energy business that creates sustainable value for our four stakeholders – owners, customers, employees and the communities in which we operate.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "NRG Energy",
+            "mission_statement": "We provide reliable wholesale electricity safely and in a manner consistent with our civic and environmental commitment to the communities we serve.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "AES",
+            "mission_statement": "Improving lives by accelerating a safer and greener energy future.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Devon Energy",
+            "mission_statement": "Devon is a results-oriented oil and gas company that builds value for shareholders through our employees by creating a culture of health, safety and environmental stewardship in an atmosphere of optimism, teamwork, creativity and resourcefulness and by dealing with everyone in an open and ethical manner.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "CenterPoint Energy",
+            "mission_statement": "To foster enhanced communication and strengthen long-term relationships with high valued customers through a trusted energy partnership.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "BorgWarner",
+            "mission_statement": "Our vision is a clean, energy-efficient world.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Targa Resources",
+            "mission_statement": "We believe the significant scale of our business, broad range of services, operational focus and competitive cost structure position us well to serve customers and to benefit from the importance of existing infrastructure in the growing U.S. energy market.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Delek US Holdings",
+            "mission_statement": "We are committed to protecting the environment and improving our impact on the world around us.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Chesapeake Energy",
+            "mission_statement": "To create value for investors by building one of the largest onshore natural gas resource bases in the United States",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "DCP Midstream",
+            "mission_statement": "To being sustainable in any market environment, with a focus on operational excellence, including industry-leading safety performance.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Public Service Enterprise Group",
+            "mission_statement": "Committed to our customers, shareholders, employees and communities where we do business. We invest in the economy, environment and infrastructure to make the states where we operate, better places to live and work.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Calpine",
+            "mission_statement": "Be the best power plant operator on the planet. Excel as a customer-centric business – both wholesale and retail. Innovate and evolve in our focus on delivering reliable and sustainable energy solutions. Live by our values.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Pioneer Natural Resources",
+            "mission_statement": "Pioneer dedicates substantial resources to ensuring our operations are performed in a manner that protects the environment. We believe all spills are preventable, and we train employees to prevent them. Pioneer engineers design and build facilities with spill prevention in mind to protect the environment.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Vistra Energy",
+            "mission_statement": "Vistra Energy is a premier, integrated, energy company providing essential resources for customers, commerce, and communities. Vistra combines an innovative, customer-centric approach to retail with safe, reliable, diverse, and efficient power generation.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Air Products & Chemicals",
+            "mission_statement": "Our aim at Air Products is to develop lasting relationships with our customers and communities based on human qualities: an understanding of their needs, integrity and honesty in the way we do business, and a passion for exceeding expectations.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Williams",
+            "mission_statement": "Williams is committed to being the leader in providing infrastructure that safely delivers natural gas products to reliably fuel the clean energy economy.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Westlake Chemical",
+            "mission_statement": "To provide quality products and services to commodity chemical, plastics and related fabricated products markets. We work to align and focus the interests of our global customers and suppliers with those of our shareholders, employees and communities.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "National Oilwell Varco",
+            "mission_statement": "To move our customers’ business forward.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Eversource Energy",
+            "mission_statement": "Serving the neighborhoods where we live and work. Coming together in good weather and bad. Taking care of problems before they’re problems. Heading out in the storm when others head home. Connecting you to solutions for savings. Working together for a better tomorrow.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Masco",
+            "mission_statement": "Masco will keep concentrating in construction field as well as going in to more promising activities such as energy and environmental industries.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Cheniere Energy",
+            "mission_statement": "We provide clean, secure, and affordable energy to the world, while responsibly delivering a reliable, competitive, and integrated source of LNG, in a safe and rewarding work environment.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "PPL",
+            "mission_statement": "To provide reliable, safe energy at a reasonable cost to our customers and best-in-sector returns to our shareowners.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "EnLink Midstream",
+            "mission_statement": "We Connect Energy to Life through midstream services that improve our customers’ businesses, employees’ lives, local communities, and investor returns.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "WEC Energy Group",
+            "mission_statement": "We are committed to maximizing both individual contributions and organizational effectiveness through the diversity of our workforce. We are committed to being an inclusive organization where all employees feel valued, respected and engaged.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "UGI",
+            "mission_statement": "To be the preeminent energy distribution company in our targeted global markets by providing a superior range of energy products and services to our customers.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Apache",
+            "mission_statement": "To grow in an innovative, safe, environmentally responsible and profitable manner for the long-term benefit of our stakeholders.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Newmont Goldcorp",
+            "mission_statement": "To create value and improve lives through sustainable and responsible mining.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "MasTec",
+            "mission_statement": "Our mission at MasTec is to be recognized as a company that achieves customer expectations safely, profitably and in a manner that is rewarding for both our customers and our team.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "CMS Energy",
+            "mission_statement": "World-Class Performance Delivering Hometown Service.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Marathon Oil",
+            "mission_statement": "Marathon is a company that strives to bring value and values together. We create value for our shareholders and provide quality products and services for our customers.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Hess",
+            "mission_statement": "To be a trusted energy partner. We are committed to help meet the world’s growing energy needs in a safe, environmentally responsible, socially sensitive and profitable way.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Ameren",
+            "mission_statement": "To power the quality of life.",
+            "industry": "Energy_Sector"
+        },
+        {
+            "company_name": "Peabody Energy",
+            "mission_statement": "To create superior value for shareholders as the leading global supplier of coal, which enables economic prosperity and a better quality of life.",
+            "industry": "Energy_Sector"
+        }
+    ]
+}

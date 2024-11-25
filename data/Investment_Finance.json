@@ -1,0 +1,436 @@
+{
+    "industry": "Investment_Finance",
+    "num_companies": 86,
+    "companies": [
+        {
+            "company_name": "Berkshire Hathaway",
+            "mission_statement": "To deliver the right parts exactly on time, exceed our internal and external customer requirements through continuous improvement, and provide a place for hard-working, dedicated, knowledgeable and ethical people who believe in the company.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "JPMorgan Chase",
+            "mission_statement": "To be the best financial services company in the world.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Fannie Mae",
+            "mission_statement": "To provide liquidity, stability, and affordability to the U.S. housing market has never been more critical than it is right now.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Bank of America",
+            "mission_statement": "To offer lending and investment products that: Serve low- and moderate-income individuals and families, improve underserved low- and moderate-income communities, and create sustainable practices for the long haul.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Wells Fargo",
+            "mission_statement": "Helping customers succeed financially.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Citigroup",
+            "mission_statement": "To serve as a trusted partner to our clients by responsibly providing financial services that enable growth and economic progress.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "State Farm Insurance",
+            "mission_statement": "To help people manage the risks of everyday life, recover from the unexpected, and realize their dreams.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Freddie Mac",
+            "mission_statement": "To provide liquidity, stability, and affordability to the U.S. housing market in all economic conditions extends to all communities from coast to coast.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "MetLife",
+            "mission_statement": "To provide high quality insurance products and services in accordance with the latest international standards and best practices and to provide value to our customers throughout the Kingdom as well as establishing and maintaining those long lasting relationships.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Prudential Financial",
+            "mission_statement": "To help our customers achieve financial prosperity and peace of mind.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Goldman Sachs Group",
+            "mission_statement": "Commit people, capital and ideas to help our clients, shareholders and the communities we serve to grow.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Morgan Stanley",
+            "mission_statement": "Dedicated to local and global communities since 1935.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "AIG",
+            "mission_statement": "As a global financial services organization, we have committed our resources to developing products and services that address the needs of our clients as well as promote a corporate culture that values integrity, diversity, innovation and excellence.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "New York Life Insurance",
+            "mission_statement": "We are in the business of helping people set and achieve their financial goals, helping our clients build, protect and preserve their assets, and helping our associates secure their financial future.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "American Express",
+            "mission_statement": "The mission of our program is to bring to life the American Express value of good corporate citizenship by supporting diverse communities in ways that enhance the company”s reputation with employees, customers, business partners and other stakeholders.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Nationwide",
+            "mission_statement": "We understand you, because we are you.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Liberty Mutual Insurance Group",
+            "mission_statement": "Helping people live safer, more secure lives.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "TIAA",
+            "mission_statement": "To helping those who teach, heal, and serve achieve financial well-being.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Allstate",
+            "mission_statement": "We help people realize their hopes and dreams through products and services designed to protect them from life’s uncertainties and to prepare them for the future.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Massachusetts Mutual Life Insurance",
+            "mission_statement": "To help solve the financial problems of our clients by providing the finest products and services available in the marketplace.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Capital One Financial",
+            "mission_statement": "To help our customers succeed by bringing ingenuity, simplicity, and humanity to banking.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "USAA",
+            "mission_statement": "To facilitate the financial security of its members, associates and their families by providing a full range of highly competitive financial products and services. In so doing, we seek to be the provider of choice for the military community.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Travelers",
+            "mission_statement": "In an uncertain world, Travelers is an insurance leader, committed to keeping pace with the ever-changing needs of our customers, and anticipating their needs for the future.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Northwestern Mutual",
+            "mission_statement": "To attract and develop highly motivated individuals committed to building a financial services practice as well as to provide representatives with a network of services and specialists to assist their clients in achieving their financial goals.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "INTL FCStone",
+            "mission_statement": "Provides clients across the globe with a comprehensive range of customized financial services and tools to help them protect their margins and manage volatility.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "U.S. Bancorp",
+            "mission_statement": "We work to meet our customers’ business and personal banking needs with competitive products and services, convenient access to their accounts, and proven stability backed by industry-leading financial metrics.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "CBRE Group",
+            "mission_statement": "Deliver superior outcomes for occupiers, residents and the communities in which we build. Deliver market-leading financial returns to our investment partners. Attract and retain top talent by upholding an entrepreneurial and rewarding work environment.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "PNC Financial Services",
+            "mission_statement": "We offer products, services and experiences that fulfill our customers’ financial needs and goals in a clear and transparent way.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Hartford Financial Services",
+            "mission_statement": "We help our customers create a secure and prosperous future by anticipating their needs and providing superior financial solutions.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Bank of New York Mellon",
+            "mission_statement": "To help people realize their full potential by leveraging our distinctive expertise to power investment success.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Icahn Enterprises",
+            "mission_statement": "unknown",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Synchrony Financial",
+            "mission_statement": "To create financial and technology solutions to move our customers and partners forward.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Lincoln National",
+            "mission_statement": "We’re committed to service leadership, recognizing and celebrating good corporate citizenship, promoting sustainable business practices and improving the quality of life in our communities.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Jones Lang LaSalle",
+            "mission_statement": "Real value in a changing world: We are committed to creating value for our clients and shareholders. We hold ourselves accountable for the social, environmental and economic impact of our operations.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Marsh & McLennan",
+            "mission_statement": "We create peace of mind by passionately delivering exceptional employee benefits and risk management solutions, committed to: Providing world-class resources with local touch. Serving our clients, colleagues, carriers, and communities. Acting with integrity and respect.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Principal Financial",
+            "mission_statement": "Our purpose for being is to serve others by helping them plan for their financial future and to protect themselves against the inevitability of death, disability, and old age.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "BlackRock",
+            "mission_statement": "Our mission is to create a better financial future for our clients. As we pursue that mission, we’re guided by our culture and a set of principles that ensure we never forget what we stand for.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Loews",
+            "mission_statement": "We stay relevant to changing times and places; to provide an experience that is authentically local and genuinely delivered, all so our guests can relax, explore, and flourish.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Las Vegas Sands",
+            "mission_statement": "To create a welcoming environment where people gather to discover and create groundbreaking products and innovative new ways of doing business. To distinguish ourselves by delivering a uniquely memorable customer experience by working smarter, faster and together.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Guardian Life Ins. Co. of America",
+            "mission_statement": "Our purpose is to enrich the lives of people we touch. By providing highest performing financial products and services that reduce risk and increase assets, we help individuals and employers fulfill their responsibilities and build better tomorrows.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "BB&T Corp.",
+            "mission_statement": "Helping our clients achieve economic success and financial security.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "State Street Corp.",
+            "mission_statement": "State Street is the world’s leading provider of financial services to institutional investors. Our broad and integrated range of services spans the entire investment spectrum, including research, investment management, trading services and investment servicing.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Ameriprise Financial",
+            "mission_statement": "To help people feel confident about their financial future.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Reinsurance Group of America",
+            "mission_statement": "A desire to help shape big, business- and even world-changing ideas.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Discover Financial Services",
+            "mission_statement": "To help people spend smarter, manage debt better and save more so they achieve a brighter financial future.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Farmers Insurance Exchange",
+            "mission_statement": "We have an unwavering commitment to uphold our founding ideals to provide industry-leading products and first-rate services to the customers we’re privileged to serve.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Unum Group",
+            "mission_statement": "To be the leading provider of employee benefits products and services that help employers manage their businesses and employees protect their families and livelihoods.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Charles Schwab",
+            "mission_statement": "To empower individual investors to take control of their financial lives, free from the high costs and conflicts of traditional brokerage firms.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Pacific Life",
+            "mission_statement": "We recognize our mission of helping clients achieve financial security can only be accomplished through our people. We invest in developing the talents and expertise of our employees and foster a work environment that is challenging, inclusive, collaborative, and results-oriented.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Ally Financial",
+            "mission_statement": "To be a better kind of bank – one with a straightforward approach, a high level of service and compelling products that deliver value.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "SunTrust Banks",
+            "mission_statement": "Along with our investment advisory group, we’re able to bring the capabilities of the entire bank (including our credit and lending team, trust and estate experts, asset management group, mortgage and insurance specialists, as well as our capital markets services) to bear for your individual wealth challenges.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "American Family Insurance Group",
+            "mission_statement": "To be the most trusted and valued service-driven insurance company.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Mutual of Omaha Insurance",
+            "mission_statement": "We help our customers protect what they care about and achieve their financial goals.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Brighthouse Financial",
+            "mission_statement": "To Help People Achieve Financial Security.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Voya Financial",
+            "mission_statement": "To make a secure financial future possible — one person, one family, one institution at a time.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Thrivent Financial for Lutherans",
+            "mission_statement": "To help Christians be wise with money and live generously. To do that, we promise to guide you on your journey to being wise with money.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Jones Financial (Edward Jones)",
+            "mission_statement": "To help individuals achieve their serious, long-term financial goals while understanding their needs and implementing tailored solutions.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Genworth Financial",
+            "mission_statement": "Genworth Financial is dedicated to helping individuals and families achieve their goals in a world of shifting financial burdens.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Jefferies Financial Group",
+            "mission_statement": "To provide quality services to its customers while maintaining the highest standards of ethical behavior.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Assurant",
+            "mission_statement": "To help clients and customers protect what is important to them: their home, their personal property, and their ability to recover from natural, personal and financial catastrophes. At Assurant we offer a variety of insurance coverage programs and related services to leading businesses and consumers alike.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Erie Insurance Group",
+            "mission_statement": "To provide our Policyholders with as near perfect protection, as near perfect service as is humanly possible and to do so at the lowest possible cost.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Auto-Owners Insurance",
+            "mission_statement": "To provide the best claim service in the industry.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Fifth Third Bancorp",
+            "mission_statement": "To responsibly empower underserved individuals, families and communities through the delivery of responsible and innovative financial solutions, leading to financially healthy people and sustainable communities.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "W.R. Berkley",
+            "mission_statement": "Our growth is based on meeting the needs of customers, maintaining a high-quality balance sheet, and allocating capital to our best opportunities.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "A-Mark Precious Metals",
+            "mission_statement": "unknown",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Fidelity National Financial",
+            "mission_statement": "At FNF we’re committed to upholding our company’s core values, which inspire us to do our best each day. We believe in reaching decisions and implementing effective solutions quickly. We provide employees authority with responsibility to encourage decision-making at the point of client contact.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Raymond James Financial",
+            "mission_statement": "To help our clients achieve financial independence through professional advice, sound risk management, quality investment products, and personal, efficient service.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "KeyCorp",
+            "mission_statement": "To empower its clients, communities and employees to thrive. The path to financial wellness starts here. No matter who you are, where you are on your financial journey, or what barriers are ahead of you, KeyBank will help you move forward.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Citizens Financial Group",
+            "mission_statement": "To help our customers, colleagues and communities reach their potential.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Western & Southern Financial Group",
+            "mission_statement": "We are a human institution serving human needs, and it’s our promise to deliver financial strength and stability for families when they need it most, and when they want to live life to the fullest.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "NVR",
+            "mission_statement": "As a corporate entity NVR, Inc. provides various support functions for each of its sub-entities. These include essential managerial structures, vital human resource specialists, and an advanced information technology department, which all intertwine to provide a network of resources utilized by NVR, inc. holdings.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "American Financial Group",
+            "mission_statement": "American Financial Group is committed to delivering financial solutions that fulfill today’s needs and tomorrow’s dreams.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Arthur J. Gallagher",
+            "mission_statement": "TO: Provide our employees with an opportunity for professional growth, personal satisfaction, and financial security. TO: Build and maintain long-lasting, consistent, honest, and profitable relationships with our insurance markets that we recognize play a crucial role in meeting our clients’ risk management needs.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Markel",
+            "mission_statement": "We seek to deliver innovative products and responsive customer service so that we can be a market leader. Our time horizon is long-term, our underwriting approach is disciplined, and our focus is on continuously improving the quality of the customer experience.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Blackstone Group",
+            "mission_statement": "To deliver enhanced returns and capital preservation over the long term. All of our businesses reflect Blackstone’s strong partnership culture, personalized approach, commitment to exceptional performance and uncompromising integrity.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Regions Financial",
+            "mission_statement": "To achieve superior economic value for our shareholders over time by making life better for our customers, our associates and our communities and creating shared value as we help them meet their financial goals and aspirations.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Northern Trust",
+            "mission_statement": "To be our clients’ most trusted financial partner, delivering market-leading capabilities through exceptional people and technology.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "M&T Bank Corp.",
+            "mission_statement": "To make a difference in people’s lives.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Franklin Resources",
+            "mission_statement": "To make the most of that expertise, you need the financial strength and resources of a global player.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Intercontinental Exchange",
+            "mission_statement": "We believe in providing our customers transparent access to global markets, and we make it our mission to deliver that – whether it means listing on the New York Stock Exchange to generate capital or turning to ICE futures markets to manage price and counterparty risk.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "S&P Global",
+            "mission_statement": "We accelerate progress in the world by providing intelligence that is essential for companies, governments and individuals to make decisions with conviction.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Old Republic International",
+            "mission_statement": "To provide quality insurance security and related services to businesses, individuals, and public institutions, and be a dependable long-term steward of the trust that policyholders, shareholders, and other important stakeholders place in us.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "First American Financial",
+            "mission_statement": "To provide you with comprehensive insurance solutions that provide security, protection, peace of mind, and superior customer service at value pricing.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Simon Property Group",
+            "mission_statement": "At Simon, our goal is your business’s success. That’s why we have leasing, development, management, and marketing professionals established to ensure that this property and your business are well-maintained and highly visible within the community.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Navient",
+            "mission_statement": "To enhance the financial success of our customers by delivering innovative solutions and insights with compassion and personalized service.",
+            "industry": "Investment_Finance"
+        },
+        {
+            "company_name": "Western Union",
+            "mission_statement": "We do business each day with absolute integrity, honesty and passion, partnering as a team to meet our consumers’ needs.",
+            "industry": "Investment_Finance"
+        }
+    ]
+}

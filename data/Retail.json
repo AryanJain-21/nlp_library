@@ -1,0 +1,391 @@
+{
+    "industry": "Retail",
+    "num_companies": 77,
+    "companies": [
+        {
+            "company_name": "Walmart",
+            "mission_statement": "To save people money so they can live better.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Amazon.com",
+            "mission_statement": "To serve consumers through online and physical stores and focus on selection, price, and convenience.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Costco Wholesale",
+            "mission_statement": "To continually provide our members with quality goods and services at the lowest possible prices.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Walgreens Boots Alliance",
+            "mission_statement": "To be the first choice for pharmacy, wellbeing and beauty, caring for people and communities around the world.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Kroger",
+            "mission_statement": "To be a leader in the distribution and merchandising of food, pharmacy, health, and personal care items, seasonal merchandise, and related products and services.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Home Depot",
+            "mission_statement": "To provide the highest level of service, the broadest selection of products and the most competitive prices.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Target",
+            "mission_statement": "We make Target our guests’ preferred shopping destination by delivering outstanding value, continuous innovation, and an exceptional guest experience—consistently fulfilling our Expect More. Pay Less.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Lowe’s",
+            "mission_statement": "Together, deliver the right home improvement products, with the best service and value, across every channel and community we serve.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Procter & Gamble",
+            "mission_statement": "We will provide branded products and services of superior quality and value that improve the lives of the world’s consumers, now and for generations to come.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Albertsons",
+            "mission_statement": "To create a shopping experience that pleases our customers; a workplace that creates opportunities and a great working environment for our associates; and a business that achieves financial success.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Best Buy",
+            "mission_statement": "We’re a growth company focused on better solving the unmet needs of our customers—and we rely on our employees to solve those puzzles.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "TJX",
+            "mission_statement": "To deliver great value to our customers every day.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Nike",
+            "mission_statement": "To bring inspiration and innovation to every athlete in the world.” While its mission statement is to “do everything possible to expand human potential.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Publix Super Markets",
+            "mission_statement": "Our mission at Publix is to be the premier quality food retailer in the world.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Rite Aid",
+            "mission_statement": "To improve the health and wellness of our communities through engaging experiences that provide our customers with the best products, services and advice to meet their unique wellness needs.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Kraft Heinz",
+            "mission_statement": "To be the BEST food company in the world.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Mondelez International",
+            "mission_statement": "Every day, we are inspired to go the extra mile to lead the future of snacking around the world. We do this by offering the right snack, for the right moment, made the right way.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Macy’s",
+            "mission_statement": "Our goal is to be a retailer with the ability to see opportunity on the horizon and have a clear path for capitalizing on it. To do so, we are moving faster than ever before, employing more technology and concentrating our resources on those elements most important to our core customers.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Dollar General",
+            "mission_statement": "Our mission is to serve others.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Starbucks",
+            "mission_statement": "To inspire and nurture the human spirit — one person, one cup and one neighborhood at a time.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Dollar Tree",
+            "mission_statement": "Dollar Tree, Inc. is a customer-oriented, value-driven variety store operating at a one dollar price point. We will operate profitably, empower our associates to share in its opportunities, rewards and successes; and deal with others in an honest and considerate way.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Penske Automotive Group",
+            "mission_statement": "To be the most profitable, growth-oriented automotive retailer in each of the markets in which we operate.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "AutoNation",
+            "mission_statement": "To deliver a peerless customer experience.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "McDonald’s",
+            "mission_statement": "To be our customers’ favorite place and way to eat and drink.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Kohl’s",
+            "mission_statement": "To be the leading family-focused, value-oriented specialty department store offering quality exclusive and national brand merchandise to the customer in an environment that is convenient, friendly, and exciting.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Genuine Parts",
+            "mission_statement": "With over 75 years of distribution expertise, our well-positioned, regionally located distribution centers provide us with the unique ability to adapt our product and service lines to better suit our customers’ needs.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "CarMax",
+            "mission_statement": "To provide our customers great quality cars at great prices with exceptional customer service.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Sherwin-Williams",
+            "mission_statement": "We are committed to providing our people with a friendly, safe and exciting work environment that includes opportunities to learn and grow. … Our world-class brands and innovative products exist because of the work and dedication of our people.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Gap",
+            "mission_statement": "To democratize fashion and make shopping fun again. To bring incredible style and quality to families the world over.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Nordstrom",
+            "mission_statement": "To provide outstanding service every day, one customer at a time. A further focus is provided to Nordstrom employees at all levels with this Nordstrom goal, which is also a management mission.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Supervalu",
+            "mission_statement": "We believe that by providing a single destination where customers can find fresh food selections, nutrition and health information and access to our full-service pharmacies, we can help customers achieve their health goals, whatever they may be.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Ross Stores",
+            "mission_statement": "In addition to fulfilling our mission of offering customers the best name-brand bargains possible, we aim to empower our Associates, operate in ways that reduce our environmental impact, and give back to the communities where we conduct business.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Qurate Retail",
+            "mission_statement": "We bring joy, inspiration, and humanity to shopping. Our focus is always on our customer: delighting her with curated collections of unique products; bringing those products to life for her through the power of storytelling; and connecting with her through distinctive video platforms and other touchpoints.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Estee Lauder",
+            "mission_statement": "We are a family company committed to working together with uncompromising ethics and integrity.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "L Brands",
+            "mission_statement": "To make our customers feel sexy, sophisticated and forever young, and we are committed to deliver on this promise by providing high-quality, safe and effective products.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Newell Brands",
+            "mission_statement": "To make life better every day for hundreds of millions of consumers where they live, learn, work and play. We put the consumer at the heart of all that we do and we are purpose-driven to make a positive difference in people’s lives.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "BJ’s Wholesale Club",
+            "mission_statement": "To providing its members with high-quality, brand-name merchandise at prices that are significantly lower than the prices found at supermarkets, supercenters, department stores, drug stores and specialty retail stores.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Core-Mark Holding",
+            "mission_statement": "To provide the freshest products and best possible service to help our customers grow their sales and profits.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "VF",
+            "mission_statement": "Ours is a perpetually driven culture, focused on constant innovation. Using deep research and insights, we combine the art and science of apparel to create products that excite consumers and brands that inspire loyalty.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Murphy USA",
+            "mission_statement": "To deliver every day the quickest, most friendly service and a low price value proposition to our growing customer base for the products and markets we serve.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Bed Bath & Beyond",
+            "mission_statement": "We make it easy to feel at home! Bed Bath & Beyond’s culture is customer-centric. Our commitment to customer service is supported by significant investments made to strengthen our Company’s foundation for future growth.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "J.C. Penney",
+            "mission_statement": "To help our customer find what she loves for less time, money and effort.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "LKQ",
+            "mission_statement": "To be the leading global value-added distributor of vehicle parts and accessories by offering our customers the most comprehensive, available and cost-effective selection of part solutions while building strong partnerships with our employees and the communities in which we operate.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Lithia Motors",
+            "mission_statement": "To be the best provider of cars and trucks and related services in North America. Utilizing a common language, we believe in developing motivated people who are committed to our goals and mission.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Group 1 Automotive",
+            "mission_statement": "Group 1 has grown to become one of the top five dealership groups in the United States. The company has achieved this success through the execution of a strategy that emphasizes geographic and brand diversity, interrelated revenue streams, operational efficiencies and the prudent deployment of capital.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "AutoZone",
+            "mission_statement": "To providing the best parts, prices and customer service in the automotive aftermarket industry.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "W.W. Grainger",
+            "mission_statement": "To be the world leader in offering solutions that help businesses and institutions save time and money as they maintain, repair, and operate their facilities.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Office Depot",
+            "mission_statement": "We are a single source for everything customers need to be more productive, including the latest technology, core office supplies, print and document services, business services, facilities products, furniture, and school essentials.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "eBay",
+            "mission_statement": "To provide a global online marketplace where practically anyone can trade practically anything, enabling economic opportunity around the world.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "United Natural Foods",
+            "mission_statement": "To transform the world of food.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Sonic Automotive",
+            "mission_statement": "To providing our customers with an outstanding automotive experience that is delivered with professionalism, integrity and enthusiasm.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "PVH",
+            "mission_statement": "To be the most admired fashion and lifestyle company in the world.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Advance Auto Parts",
+            "mission_statement": "To provide personal vehicle owners and enthusiasts with the vehicle related products and knowledge that fulfill their wants and needs at the right price. Our friendly, knowledgeable and professional staff will help inspire, educate and problem-solve for our customers.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "O’Reilly Automotive",
+            "mission_statement": "O’Reilly Automotive intends to be the dominant supplier of auto parts in our market areas by offering our retail customers, professional installers, and jobbers the best combination of price and quality provided with the highest possible service level.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Coty",
+            "mission_statement": "To celebrate and liberate the diversity of beauty.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "GameStop",
+            "mission_statement": "To deliver customer satisfaction.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Campbell Soup",
+            "mission_statement": "To nourish people’s lives by offering a wide variety of convenient, delicious, and affordable food choices that can help everyone enjoy a balanced, healthful diet.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Dick’s Sporting Goods",
+            "mission_statement": "To be the No. 1 sports and fitness specialty retailer for all athletes and outdoor enthusiasts through the relentless improvement of everything we do.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Yum China Holdings",
+            "mission_statement": "We are dedicated to serving our customers’ evolving needs by enhancing in-store experience, improving mobile connectivity, introducing innovative new products, and constantly delivering value.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "SpartanNash",
+            "mission_statement": "To leverage our expertise in food distribution and retail to develop, activate and provide impactful solutions that exceed expectations for associates, customers and partners. A best-in-class business that feels local, where relationships matter.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Foot Locker",
+            "mission_statement": "To be the leading global retailer of athletically inspired shoes and apparel.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Tractor Supply",
+            "mission_statement": "To work hard, have fun and make money by providing legendary service and great products at everyday low prices.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Hershey",
+            "mission_statement": "At the Hershey Company, we make chocolate brands that people love. Hershey’s mission statement, bringing sweet moments of Hershey happiness to the world every day, summarizes our company, our people, our past and future.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Casey’s General Stores",
+            "mission_statement": "To provide quality products at competitive prices with courteous service in clean stores at convenient locations. To provide a work environment where employees are treated with respect, dignity and honesty and where high performance is expected and rewarded.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "TravelCenters of America",
+            "mission_statement": "To take care of all highway travelers in the finest full-service facilities on the road.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Asbury Automotive Group",
+            "mission_statement": "The Company was strategically built on the premise of starting with the best ingredients – the right brands, markets and dealers. It’s a solid foundation – building on that foundation with a sound strategy and operating model will determine our success in the future.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Hanesbrands",
+            "mission_statement": "To profitably grow our leading brands by intimately understanding our customers, out-executing our competition and leveraging our sustainable competitive advantage.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Wayfair",
+            "mission_statement": "To make home a reality for more of the many people in need of safe shelter and basic household items that help make a home.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Ulta Beauty",
+            "mission_statement": "To be the most loved beauty destination of our guests and the most admired retailer by our Ulta Beauty associates, communities, partners and investors.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Burlington Stores",
+            "mission_statement": "Burlington is a company that truly lives by their Core Values to Drive Results, to Trust and Respect Each Other and to Build teams and Partnerships. We need to continue to grow the brand. We need to do a better job to get the word out that it’s no longer Burlington Coat Factory.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Ascena Retail Group",
+            "mission_statement": "We are committed to providing all women and girls with fashion and inspiration for living confidently every day.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Dillard’s",
+            "mission_statement": "The Company focuses on delivering maximum fashion and value to its shoppers by offering compelling apparel and home selections complemented by exceptional customer care.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Ralph Lauren",
+            "mission_statement": "To offer, along with our licensing alliances, broad lifestyle product collections with a unified vision.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "HD Supply Holdings",
+            "mission_statement": "HD Supply is committed to creating a diverse work environment where all associates are included, respected and encouraged to do their best work.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Yum Brands",
+            "mission_statement": "To build the world’s most loved, trusted and fastest growing restaurant brands.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Williams-Sonoma",
+            "mission_statement": "To help you celebrate the people in your life and to make gift giving personable and fun.",
+            "industry": "Retail"
+        },
+        {
+            "company_name": "Levi Strauss",
+            "mission_statement": "To sustain responsible commercial success as a global marketing company of branded casual apparel.",
+            "industry": "Retail"
+        }
+    ]
+}
