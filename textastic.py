@@ -103,6 +103,10 @@ class Textastic:
         except json.JSONDecodeError:
             print(f"Error: File {filename} is not a valid JSON file.")
             return {}
+        
+        # Size of file
+
+        size = content.get("num_companies", 0)
 
         # Extract mission statements
         mission_statements = [entry["mission_statement"] for entry in content.get("companies", [])]
@@ -137,6 +141,7 @@ class Textastic:
             'num_sentences': num_sentences,
             'avg_word_length': avg_word_length,
             'avg_sentence_length': avg_sentence_length,
+            'num_elements': size
         }
 
 
@@ -145,9 +150,12 @@ class Textastic:
         a bar chart comparing number of words (Not intended for
         project)."""
 
-        num_words = self.data['num_words']
+        num_words_normalized = [
+            num_words / size
+            for num_words, size in zip(self.data['num_words'].values(), self.data['num_elements'].values())
+        ]
         
-        plt.bar(num_words.keys(), num_words.values())
+        plt.bar(self.data['num_words'].keys(), num_words_normalized)
         plt.title("Number of Words per Text")
         plt.xlabel("Text")
         plt.ylabel("Number of Words")
