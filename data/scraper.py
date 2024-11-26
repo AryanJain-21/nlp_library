@@ -1,13 +1,21 @@
 import requests
 from bs4 import BeautifulSoup
-import json
 from datetime import datetime
 from openai import OpenAI
+from pymongo import MongoClient
 import os
+import json
 from dotenv import load_dotenv
 from collections import defaultdict
 
 load_dotenv()
+
+# MongoDB setup
+mongo_client = MongoClient(os.getenv("MONGO_URI"))
+db = mongo_client["fortune_500"]
+collection = db["companies"]
+
+# OpenAI API setup
 client = OpenAI(
     api_key=os.getenv("OPENAI_KEY"), 
 )
@@ -90,7 +98,6 @@ for extract in headers:
             break
 
 # Metadata, the source, extracted date, number of companies represented, then the companies
-metadata_file = "data/fortune_500.json"
 metadata = {
     "source": url,
     "extracted_date": datetime.now().strftime("%Y-%m-%d"),
@@ -98,15 +105,29 @@ metadata = {
     "companies": companies
 }
 
-# Save the data to a JSON file in the data directory
-with open(metadata_file, 'w', encoding='utf-8') as f:
-    json.dump(metadata, f, ensure_ascii=False, indent=4)
+db["companies"].insert_one(metadata)
 
 industry_groups = defaultdict(list)
 for company in companies:
 
     industry = company["industry"]
     industry_groups[industry].append(company)
+
+for industry, companies in industry_groups.items():
+
+    industry_collection = db[industry]
+    industry_collection.insert_many(companies)
+
+    print(f"Inserted {len(companies)} companies into '{industry}' collection.")
+
+
+# JSON Files (for backup):
+
+metadata_file = "data/fortune_500.json"
+
+# Save the data to a JSON file in the data directory
+with open(metadata_file, 'w', encoding='utf-8') as f:
+    json.dump(metadata, f, ensure_ascii=False, indent=4)
 
 for industry, companies in industry_groups.items():
 
@@ -119,8 +140,7 @@ for industry, companies in industry_groups.items():
             "companies": companies
         }, f, ensure_ascii=False, indent=4)
         
-    print(f"Saved {len(companies)} companies to '{industry_file}'.")
 
-print("All JSON files have been created.")
+print("Data extraction and insertion complete")
 
 
