@@ -19,11 +19,11 @@ import pandas as pd
 from sankey import show_sankey
 import seaborn as sns
 
-class Textastic:
+class TextGraph:
 
     def __init__(self):
         """ 
-        Constructor for the Textastic class.
+        Constructor for the TextGraph class.
         Initializes the data dictionary and stopwords set (from NLTK by default).
         """
         self.data = defaultdict(dict)

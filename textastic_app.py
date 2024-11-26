@@ -1,9 +1,9 @@
-from textastic import Textastic
+from textastic import TextGraph
 import textastic_parsers as tp
 
 def main():
 
-    tt = Textastic()
+    tt = TextGraph()
     tt.load_text(filename='data/Energy_Sector.json', label='Energy', parser=tp.custom_parser)
     tt.load_text(filename='data/Healthcare.json', label='Healthcare', parser=tp.custom_parser)
     tt.load_text(filename='data/Investment_Finance.json', label='Finance', parser=tp.custom_parser)
