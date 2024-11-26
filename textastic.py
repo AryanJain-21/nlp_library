@@ -104,6 +104,7 @@ class Textastic:
             print(f"Error reading file {filename}: {e}")
             return {}
 
+        size = len(self.text_files)
         # Clean text
         cleaned_text = text.translate(str.maketrans('', '', string.punctuation)).lower()
         words = cleaned_text.split()
@@ -117,33 +118,28 @@ class Textastic:
         sentences = re.split(r'[.!?]+', text)
         num_sentences = len([sentence for sentence in sentences if sentence.strip()])
 
-        # Average statistics
-        avg_word_length = sum(len(word) for word in filtered_words) / num_words if num_words > 0 else 0
-        avg_sentence_length = num_words / num_sentences if num_sentences > 0 else 0
-
         # Results dictionary
         results = {
             'wordcount': wordcount,
             'numwords': num_words,
             'num_sentences': num_sentences,
-            'avg_word_length': avg_word_length,
-            'avg_sentence_length': avg_sentence_length
+            'num_elements': size
         }
 
         return results
 
 
-    def compare_num_words(self):
+    def compare_num_sentences(self):
         """ This is a very simplistic visualization that creates
         a bar chart comparing number of words (Not intended for
         project)."""
 
-        num_words_normalized = [
-            num_words / size
-            for num_words, size in zip(self.data['num_words'].values(), self.data['num_elements'].values())
+        num_sentences_normalized = [
+            num_sentences / size
+            for num_sentences, size in zip(self.data['num_sentences'].values(), self.data['num_elements'].values())
         ]
         
-        plt.bar(self.data['num_words'].keys(), num_words_normalized)
+        plt.bar(self.data['num_sentences'].keys(), num_sentences_normalized)
         plt.title("Number of Words per Text")
         plt.xlabel("Text")
         plt.ylabel("Number of Words")

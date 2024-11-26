@@ -47,14 +47,10 @@ def custom_parser(self, filename):
         # Statistics
         num_words = len(words)
         num_sentences = len(sentences)
-        avg_word_length = sum(len(word) for word in words) / num_words if num_words else 0
-        avg_sentence_length = num_words / num_sentences if num_sentences else 0
 
         return {
             'wordcount': wordcount,
             'num_words': num_words,
             'num_sentences': num_sentences,
-            'avg_word_length': avg_word_length,
-            'avg_sentence_length': avg_sentence_length,
             'num_elements': size
         }
