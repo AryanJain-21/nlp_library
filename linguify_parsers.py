@@ -2,7 +2,7 @@ import json
 from collections import Counter
 import string
 
-def custom_parser(self, filename):
+def json_parser(self, filename):
         """
         Custom parser for handling text-based JSON files.
         Extracts mission statements, computes word counts.
@@ -46,3 +46,42 @@ def custom_parser(self, filename):
             'num_words': num_words,
             'num_elements': size
         }
+
+def db_parser(self, documents):
+    """
+    Custom parser for handling MongoDB documents.
+    Extracts mission statements, computes word counts.
+    """
+        
+    if not documents:
+        print(f"Warning: No data found.")
+        return {}
+
+    # Number of companies
+    size = len(documents)
+
+    # Extract mission statements
+    mission_statements = [doc["mission_statement"] for doc in documents if "mission_statement" in doc]
+    if not mission_statements:
+        print(f"Warning: No mission statements found.")
+        return {}
+
+    full_text = " ".join(mission_statements)
+
+    # Process text
+    cleaned_text = full_text.translate(str.maketrans('', '', string.punctuation)).lower()
+    words = cleaned_text.split()
+
+    self.load_stop_words('nltk')
+
+    filtered_words = [word for word in words if word not in self.stopwords]
+
+    wordcount = Counter(filtered_words)
+
+    num_words = len(words)
+
+    return {
+        'wordcount': wordcount,
+        'num_words': num_words,
+        'num_elements': size
+    }
