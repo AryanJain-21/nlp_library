@@ -1,3 +1,9 @@
+matplotlib
+nltk
+wordcloud
+pandas
+seaborn
 requests
 beautifulsoup4
-nltk
+python-dotenv
+openai
