@@ -1,6 +1,5 @@
 from textastic import Textastic
 import textastic_parsers as tp
-import pprint as pp
 
 def main():
 
@@ -11,7 +10,7 @@ def main():
     tt.load_text(filename='data/Retail.json', label='Retail', parser=tp.custom_parser)
     tt.load_text(filename='data/Technology.json', label='Tech', parser=tp.custom_parser)
     tt.load_text(filename='data/Other.json', label='Other', parser=tp.custom_parser)
-    
+
     tt.wordcount_sankey(k=5)
     tt.wordcloud_subplots(cols=3)
     tt.heatmap_word_frequencies(["clients", "customers", "improve", "services", "products", "world", "solutions", "communities"])
