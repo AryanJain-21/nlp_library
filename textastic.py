@@ -115,38 +115,16 @@ class Textastic:
         # Word and sentence counts
         wordcount = Counter(filtered_words)
         num_words = len(filtered_words)
-        sentences = re.split(r'[.!?]+', text)
-        num_sentences = len([sentence for sentence in sentences if sentence.strip()])
 
         # Results dictionary
         results = {
             'wordcount': wordcount,
             'numwords': num_words,
-            'num_sentences': num_sentences,
             'num_elements': size
         }
 
         return results
 
-
-    def compare_num_sentences(self):
-        """ This is a very simplistic visualization that creates
-        a bar chart comparing number of words (Not intended for
-        project)."""
-
-        num_sentences_normalized = [
-            num_sentences / size
-            for num_sentences, size in zip(self.data['num_sentences'].values(), self.data['num_elements'].values())
-        ]
-        
-        plt.bar(self.data['num_sentences'].keys(), num_sentences_normalized)
-        plt.title("Number of Words per Text")
-        plt.xlabel("Text")
-        plt.ylabel("Number of Words")
-        plt.xticks(rotation=45)
-        plt.tight_layout()
-
-        plt.show()
     
     def wordcount_sankey(self, word_list=None, k=5):
         """

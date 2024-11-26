@@ -41,16 +41,10 @@ def custom_parser(self, filename):
 
         wordcount = Counter(filtered_words)
 
-        sentences = re.split(r'[.!?]+', full_text)
-        sentences = [sentence.strip() for sentence in sentences if sentence.strip()]
-
-        # Statistics
         num_words = len(words)
-        num_sentences = len(sentences)
 
         return {
             'wordcount': wordcount,
             'num_words': num_words,
-            'num_sentences': num_sentences,
             'num_elements': size
         }
