@@ -37,10 +37,9 @@ What gets stored:
 from collections import defaultdict, Counter
 import random as rnd
 import matplotlib.pyplot as plt
-import json
+import os
 import re
 import string
-import os
 from nltk.corpus import stopwords
 from wordcloud import WordCloud
 import pandas as pd
@@ -70,7 +69,7 @@ class Textastic:
         if parser is None:
             results = self.default_parser(filename)
         else:
-            results = parser(filename)
+            results = parser(self, filename)
 
         if label is None:
             label = filename
@@ -91,59 +90,47 @@ class Textastic:
     
     def default_parser(self, filename):
         """
-        Default parser for handling text-based JSON files.
-        Extracts mission statements and computes word counts.
+        Parse a standard text file and extract word count,
+        number of words, sentences, and other statistics.
         """
-        
+
         try:
             with open(filename, 'r', encoding='utf-8') as file:
-                content = json.load(file)
+                text = file.read()
         except FileNotFoundError:
             print(f"Error: File {filename} not found.")
             return {}
-        except json.JSONDecodeError:
-            print(f"Error: File {filename} is not a valid JSON file.")
-            return {}
-        
-        # Size of file
-
-        size = content.get("num_companies", 0)
-
-        # Extract mission statements
-        mission_statements = [entry["mission_statement"] for entry in content.get("companies", [])]
-        if not mission_statements:
-            print(f"Warning: No mission statements found in {filename}.")
+        except Exception as e:
+            print(f"Error reading file {filename}: {e}")
             return {}
 
-        full_text = " ".join(mission_statements)
-
-        # Process text
-        cleaned_text = full_text.translate(str.maketrans('', '', string.punctuation)).lower()
+        # Clean text
+        cleaned_text = text.translate(str.maketrans('', '', string.punctuation)).lower()
         words = cleaned_text.split()
 
-        self.load_stop_words('nltk')
-
+        # Remove stopwords if they are loaded
         filtered_words = [word for word in words if word not in self.stopwords]
 
+        # Word and sentence counts
         wordcount = Counter(filtered_words)
+        num_words = len(filtered_words)
+        sentences = re.split(r'[.!?]+', text)
+        num_sentences = len([sentence for sentence in sentences if sentence.strip()])
 
-        sentences = re.split(r'[.!?]+', full_text)
-        sentences = [sentence.strip() for sentence in sentences if sentence.strip()]
+        # Average statistics
+        avg_word_length = sum(len(word) for word in filtered_words) / num_words if num_words > 0 else 0
+        avg_sentence_length = num_words / num_sentences if num_sentences > 0 else 0
 
-        # Statistics
-        num_words = len(words)
-        num_sentences = len(sentences)
-        avg_word_length = sum(len(word) for word in words) / num_words if num_words else 0
-        avg_sentence_length = num_words / num_sentences if num_sentences else 0
-
-        return {
+        # Results dictionary
+        results = {
             'wordcount': wordcount,
-            'num_words': num_words,
+            'numwords': num_words,
             'num_sentences': num_sentences,
             'avg_word_length': avg_word_length,
-            'avg_sentence_length': avg_sentence_length,
-            'num_elements': size
+            'avg_sentence_length': avg_sentence_length
         }
+
+        return results
 
 
     def compare_num_words(self):
