@@ -13,7 +13,7 @@ def main():
 
     lg.wordcount_sankey(k=5)
     lg.wordcloud_subplots(cols=3)
-    lg.heatmap_word_frequencies(["clients", "customers", "improve", "services", "products", "world", "solutions", "communities"])
+    lg.heatmap_word_frequencies(["clients", "customers", "services", "value", "world", "solutions", "communities"])
 
 
 if __name__ == '__main__':
