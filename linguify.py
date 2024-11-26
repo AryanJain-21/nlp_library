@@ -1,6 +1,6 @@
 """
 
-file: textastic.py
+file: linguify.py
 
 Description: A reusable library for text analysis and comparison
 In theory, the framework should support any collection
@@ -19,11 +19,11 @@ import pandas as pd
 from sankey import show_sankey
 import seaborn as sns
 
-class TextGraph:
+class Linguify:
 
     def __init__(self):
         """ 
-        Constructor for the TextGraph class.
+        Constructor for the Linguify class.
         Initializes the data dictionary and stopwords set (from NLTK by default).
         """
         self.data = defaultdict(dict)
