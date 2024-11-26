@@ -1,12 +1,11 @@
 import json
 from collections import Counter
-import re
 import string
 
 def custom_parser(self, filename):
         """
-        Default parser for handling text-based JSON files.
-        Extracts mission statements and computes word counts.
+        Custom parser for handling text-based JSON files.
+        Extracts mission statements, computes word counts.
         """
         
         try:
@@ -19,8 +18,7 @@ def custom_parser(self, filename):
             print(f"Error: File {filename} is not a valid JSON file.")
             return {}
         
-        # Size of file
-
+        # Number of companies per file
         size = content.get("num_companies", 0)
 
         # Extract mission statements

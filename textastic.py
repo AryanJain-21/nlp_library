@@ -22,18 +22,20 @@ import seaborn as sns
 class Textastic:
 
     def __init__(self):
-        """ Constructor
-
-        datakey
+        """ 
+        Constructor for the Textastic class.
+        Initializes the data dictionary and stopwords set (from NLTK by default).
         """
         self.data = defaultdict(dict)
         self.stopwords = set(stopwords.words('english'))
         self.text_files = []
 
     def load_text(self, filename, label=None, parser=None):
-        """ Register a document with the framework.
+        """
+        Register a document with the framework.
         Extract and store data to be used later by
-        the visualization """
+        the visualization.
+        """
 
         if not os.path.isfile(filename):
             print(f"Error: File {filename} not found.")
@@ -53,7 +55,9 @@ class Textastic:
         self.text_files.append(label)
         
     def load_stop_words(self, stopfile):
-        """Load stopwords from a file or NLTK's list."""
+        """
+        Load stopwords from a file or NLTK's list.
+        """
         if stopfile.lower() == "nltk":
             self.stopwords = set(stopwords.words('english'))
         else:
@@ -86,7 +90,6 @@ class Textastic:
         # Remove stopwords
         filtered_words = [word for word in words if word not in self.stopwords]
 
-        # Word and sentence counts
         wordcount = Counter(filtered_words)
         num_words = len(filtered_words)
 
@@ -133,14 +136,19 @@ class Textastic:
         show_sankey(df, src='src', targ='targ', vals='vals', width=1000, height=600)
     
     def wordcloud_subplots(self, cols=2):
-        """Generate a subplot of word clouds, one for each text."""
+        """
+        Generate a subplot of word clouds, one for each text.
+        """
+
+        # Prepare wordcloud dimensions
         wordcounts = self.data['wordcount']
         num_files = len(wordcounts)
         rows = (num_files + cols - 1) // cols
 
         fig, axes = plt.subplots(rows, cols, figsize=(cols * 3, rows * 3))
         axes = axes.flatten()
-
+        
+        # Set up wordcloud
         for i, (label, wc) in enumerate(wordcounts.items()):
             wordcloud = WordCloud(width=400, height=300, background_color="white").generate_from_frequencies(wc)
             axes[i].imshow(wordcloud, interpolation="bilinear")
@@ -154,7 +162,7 @@ class Textastic:
         """
         Generate a heatmap of word frequencies across industries.
         """
-        
+
         labels = list(self.data['wordcount'].keys())
         wordcounts = self.data['wordcount']
 
