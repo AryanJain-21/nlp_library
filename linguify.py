@@ -103,7 +103,7 @@ class Linguify:
         return results
 
     
-    def wordcount_sankey(self, word_list=None, k=5):
+    def word_sankey(self, word_list=None, k=5):
         """
         Generate a Sankey diagram linking texts to their k most common words
         or a user-defined set of words.
@@ -135,7 +135,7 @@ class Linguify:
         # Use the sankey wrapper to generate the diagram
         show_sankey(df, src='src', targ='targ', vals='vals', width=1000, height=600)
     
-    def wordcloud_subplots(self, cols=2):
+    def wordclouds(self, cols=2):
         """
         Generate a subplot of word clouds, one for each text.
         """
@@ -158,7 +158,7 @@ class Linguify:
         plt.tight_layout()
         plt.show()
     
-    def heatmap_word_frequencies(self, words):
+    def word_heatmap(self, words):
         """
         Generate a heatmap of word frequencies across industries.
         """

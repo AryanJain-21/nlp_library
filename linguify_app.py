@@ -28,9 +28,9 @@ def main():
     lg.load_text(filename='data/Technology.json', label='Tech', parser=lp.json_parser)
     lg.load_text(filename='data/Other.json', label='Other', parser=lp.json_parser)"""
 
-    lg.wordcount_sankey(k=5)
-    lg.wordcloud_subplots(cols=3)
-    lg.heatmap_word_frequencies(["clients", "customers", "services", "value", "world", "solutions", "communities"])
+    lg.word_sankey(k=5)
+    lg.wordclouds(cols=3)
+    lg.word_heatmap(["clients", "customers", "services", "value", "world", "solutions", "communities"])
 
 
 if __name__ == '__main__':
