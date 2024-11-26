@@ -7,38 +7,11 @@ In theory, the framework should support any collection
 of texts of interest (though this might require the implementation
 of some custom parsers.)
 
-Possible sources for mini-project
-
-- gutenburg texts
-- political speech
-- tweet compilations
-- corporate filines
-- philosophy treatises
-- letters, journals, diaries
-- blogs
-- news articles
-
-The core data structure:
-
-Input: "A" --> raw text, "B" --> another text
-
-Extract wordcounts:
-         "A" --> wordcounts_A, "B" --> wordcounts_B, .....
-
-What gets stored:
-
-        "wordcounts" ---> {"A" --> wordcount_A,
-                           "B" --> wordcounts_B, etc.}
-
-        e.g., dict[wordcounts][A] --> wordcounts_A
-
 """
 
 from collections import defaultdict, Counter
-import random as rnd
 import matplotlib.pyplot as plt
 import os
-import re
 import string
 from nltk.corpus import stopwords
 from wordcloud import WordCloud
@@ -54,7 +27,7 @@ class Textastic:
         datakey
         """
         self.data = defaultdict(dict)
-        self.stopwords = set()
+        self.stopwords = set(stopwords.words('english'))
         self.text_files = []
 
     def load_text(self, filename, label=None, parser=None):
@@ -105,11 +78,12 @@ class Textastic:
             return {}
 
         size = len(self.text_files)
+
         # Clean text
         cleaned_text = text.translate(str.maketrans('', '', string.punctuation)).lower()
         words = cleaned_text.split()
 
-        # Remove stopwords if they are loaded
+        # Remove stopwords
         filtered_words = [word for word in words if word not in self.stopwords]
 
         # Word and sentence counts
@@ -155,7 +129,7 @@ class Textastic:
             print("No data to visualize in the Sankey diagram.")
             return
 
-        # Use the Plotly wrapper to generate the Sankey diagram
+        # Use the sankey wrapper to generate the diagram
         show_sankey(df, src='src', targ='targ', vals='vals', width=1000, height=600)
     
     def wordcloud_subplots(self, cols=2):
@@ -173,9 +147,6 @@ class Textastic:
             axes[i].set_title(label)
             axes[i].axis('off')
 
-        for j in range(i + 1, len(axes)):
-            axes[j].axis('off')
-
         plt.tight_layout()
         plt.show()
     
@@ -183,6 +154,7 @@ class Textastic:
         """
         Generate a heatmap of word frequencies across industries.
         """
+        
         labels = list(self.data['wordcount'].keys())
         wordcounts = self.data['wordcount']
 
@@ -192,7 +164,7 @@ class Textastic:
 
         # Plot heatmap
         plt.figure(figsize=(10, 6))
-        sns.heatmap(heatmap_df, annot=True, cmap="YlGnBu", fmt="d", linewidths=0.5)
+        sns.heatmap(heatmap_df, annot=True, cmap="Blues")
         plt.title("Word Frequencies Across Industries")
         plt.xlabel("Words")
         plt.ylabel("Industries")
