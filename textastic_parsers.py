@@ -3,7 +3,7 @@ from collections import Counter
 import re
 import string
 
-def default_parser(self, filename):
+def custom_parser(self, filename):
         """
         Default parser for handling text-based JSON files.
         Extracts mission statements and computes word counts.
